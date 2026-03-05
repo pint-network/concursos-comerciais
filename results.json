@@ -1,0 +1,5868 @@
+{
+  "styles": [
+    "Adambier",
+    "Aged Beer",
+    "Alcoholic Beer Mix Beverage (Cocktail Misto)",
+    "American-Belgo-Style Ale",
+    "American-Style Amber Lager",
+    "American-Style Amber/Red Ale",
+    "American-Style Barley Wine Ale",
+    "American-Style Black Ale",
+    "American-Style Brown Ale",
+    "American-Style Cream Ale",
+    "American-Style Dark Lager",
+    "American-Style Fruit Beer",
+    "American-Style Fruited Sour Ale",
+    "American-Style Imperial or Double India Pale Ale",
+    "American-Style Imperial Porter",
+    "American-Style Imperial Stout",
+    "American-Style India Pale Ale",
+    "American-Style India Pale Lager",
+    "American-Style Lager",
+    "American-Style Light Lager",
+    "American-Style Maerzen/Oktoberfest",
+    "American-Style Malt Liquor",
+    "American-Style Pale Ale",
+    "American-Style Pilsener",
+    "American-Style Sour Ale",
+    "American-Style Stout",
+    "American-Style Strong Pale Ale",
+    "American-Style Wheat Beer",
+    "American-Style Wheat Wine Ale",
+    "Australasian, Latin American or Tropical-Style Light Lager",
+    "Australian-Style Pale Ale",
+    "Baltic-Style Porter",
+    "Bamberg-Style Bock Rauchbier",
+    "Bamberg-Style Helles Rauchbier",
+    "Bamberg-Style Maerzen Rauchbier",
+    "Belgian-Style Blonde Ale",
+    "Belgian-Style Dubbel",
+    "Belgian-Style Flanders Oud Bruin or Oud Red Ale",
+    "Belgian-Style Fruit Beer",
+    "Belgian-Style Fruit Lambic",
+    "Belgian-Style Lambic",
+    "Belgian-Style Quadrupel",
+    "Belgian-Style Session Ale",
+    "Belgian-Style Speciale Belge",
+    "Belgian-Style Strong Blonde Ale",
+    "Belgian-Style Strong Dark Ale",
+    "Belgian-Style Table Beer",
+    "Belgian-Style Tripel",
+    "Belgian-Style Witbier",
+    "Berliner-Style Weisse",
+    "Brazilian-Style Fruit Beer",
+    "Brazilian-Style Herb or Spiced Beer",
+    "Brazilian-Style Wood Aged Beer",
+    "Breslau-Style Schoeps",
+    "Brett Beer",
+    "British-Style Barley Wine Ale",
+    "British-Style Imperial Stout",
+    "British-Style India Pale Ale",
+    "Brown Porter",
+    "Brut Beer",
+    "California Common Beer",
+    "Catharina Sour",
+    "Cerveja com Madeira Brasileira (Brazilian Wood- and Barrel-Aged Beer)",
+    "Cerveja Experimental com Madeira Brasileira (Experimental Brazilian Wood- and Barrel-Aged Beer)",
+    "Cerveja Ácida com Madeira Brasileira (Brazilian Wood- and Barrel-Aged Sour Beer)",
+    "Chili Pepper Beer",
+    "Chocolate or Cocoa Beer",
+    "Classic Australian-Style Pale Ale",
+    "Classic English-Style Pale Ale",
+    "Classic French & Belgian-Style Saison",
+    "Classic Irish-Style Dry Stout",
+    "Coffee Beer",
+    "Contemporary American-Style Lager",
+    "Contemporary American-Style Light Lager",
+    "Contemporary American-Style Pilsener",
+    "Contemporary Belgian-Style Spontaneous Fermented Ale",
+    "Contemporary-Style Gose",
+    "Czech-Style Amber Lager",
+    "Czech-Style Dark Lager",
+    "Czech-Style Pale Lager",
+    "Dessert Stout or Pastry Stout",
+    "Dorada Pampeana",
+    "Dortmunder/European-Style Export",
+    "Double Hoppy Red Ale",
+    "Dutch-Style Kuit, Kuyt or Koyt",
+    "English-Style Brown Ale",
+    "English-Style Dark Mild Ale",
+    "English-Style Pale Mild Ale",
+    "English-Style Summer Ale",
+    "European-Style Dark Lager",
+    "Experimental Beer",
+    "Experimental India Pale Ale",
+    "Export-Style Stout",
+    "Extra Special Bitter",
+    "Field Beer",
+    "Finnish-Style Sahti",
+    "Franconian-Style Rotbier",
+    "Fresh Hop Beer",
+    "Fruit Wheat Beer",
+    "German-Style Altbier",
+    "German-Style Doppelbock",
+    "German-Style Eisbock",
+    "German-Style Heller Bock/Maibock",
+    "German-Style Koelsch",
+    "German-Style Leichtbier",
+    "German-Style Leichtes Weizen",
+    "German-Style Maerzen",
+    "German-Style Oktoberfest/Festbier",
+    "German-Style Pilsener",
+    "German-Style Rye Ale",
+    "German-Style Schwarzbier",
+    "Ginjo Beer or Sake-Yeast Beer",
+    "Gluten-Free Beer",
+    "Gluten-Free Enzimático",
+    "Golden or Blonde Ale",
+    "Grodziskie",
+    "Herb and Spice Beer",
+    "Historical Beer",
+    "Hop Lager",
+    "Imperial Red Ale",
+    "International Light Lager",
+    "International-Style Pale Ale",
+    "International-Style Pilsener",
+    "Irish-Style Red Ale",
+    "Italian Grape Ale",
+    "Italian-Style Pilsener",
+    "Juicy or Hazy Imperial or Double India Pale Ale",
+    "Juicy or Hazy India Pale Ale",
+    "Juicy or Hazy Pale Ale",
+    "Juicy or Hazy Strong Pale Ale",
+    "Kellerbier or Zwickelbier",
+    "Kentucky Common Beer",
+    "Leipzig-Style Gose",
+    "Low Carb Beer",
+    "Manipueira Selvagem",
+    "Mexican-Style Amber Lager",
+    "Mexican-Style Dark Lager",
+    "Mexican-Style Light Lager",
+    "Mexican-Style Pale Lager",
+    "Mixed-Culture Brett Beer",
+    "Munich-Style Dunkel",
+    "Munich-Style Helles",
+    "New Zealand-Style India Pale Ale",
+    "New Zealand-Style Pale Ale",
+    "Non-Alcohol Malt Beverage",
+    "Oatmeal Stout",
+    "Old Ale",
+    "Ordinary Bitter",
+    "Other Belgian-Style Ale",
+    "Other Origin Lager Styles",
+    "Other Strong Ale or Lager",
+    "Pumpkin Spice Beer",
+    "Robust Porter",
+    "Scotch Ale or Wee Heavy",
+    "Scottish-Style Export Ale",
+    "Scottish-Style Heavy Ale",
+    "Scottish-Style Light Ale",
+    "Session Beer",
+    "Session India Pale Ale",
+    "Smoke Beer",
+    "Smoke Porter",
+    "South German-Style Bernsteinfarbenes Weizen",
+    "South German-Style Hefeweizen",
+    "South German-Style Kristal Weizen",
+    "South German-Style Weizenbock",
+    "Special Bitter or Best Bitter",
+    "Specialty Beer",
+    "Specialty Honey Beer",
+    "Specialty Saison",
+    "Strong Ale",
+    "Swedish-Style Gotlandsdricke",
+    "Sweet Stout or Cream Stout",
+    "Traditional Belgian-Style Gueuze",
+    "Traditional German-Style Bock",
+    "Vienna-Style Lager",
+    "West Coast-Style India Pale Ale",
+    "West Coast-Style Pilsener",
+    "Wild Beer",
+    "Wood & Barrel Aged Beer",
+    "Wood- and Barrel-Aged Sour Beer"
+  ],
+  "data": {
+    "Adambier": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Bock N Brett",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Kaptain Lisa",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "Aged Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Barley Wine Safra 2017",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Barley Wine Safra 2018",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Barley Wine Safra 2018",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Leopoldina Barley Wine Safra 2017",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ]
+    },
+    "Alcoholic Beer Mix Beverage (Cocktail Misto)": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Walnut Uvva",
+          "brewery": "Cervejaria Walnut",
+          "state": "MG"
+        },
+        {
+          "medal": "Ouro",
+          "beer": "Haenschbier Coquetel Composto",
+          "brewery": "Haenschbier",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Birra Del Nonno - Bacco",
+          "brewery": "Birra Del Nonno",
+          "state": "SC"
+        }
+      ],
+      "cbc": []
+    },
+    "American-Belgo-Style Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Uma Canção Praieira.",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Stratra Series 1",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Belgian Tetra Hop",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Belgian Tetra Hop",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Patanegra Belgo Ale",
+          "brewery": "Cervejaria Patanegra",
+          "state": "PR"
+        }
+      ]
+    },
+    "American-Style Amber Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Sasha",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Bruder Red Lager",
+          "brewery": "Cervejaria Brüder",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cerveja Do Funil - Red",
+          "brewery": "Cervejaria Do Funil",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "1824 Imigração Amber Lager",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Jegausus",
+          "brewery": "Coice Da Mula",
+          "state": "PR"
+        }
+      ]
+    },
+    "American-Style Amber/Red Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Hop Red",
+          "brewery": "Três Torres",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Campinas Amber Ale",
+          "brewery": "Cervejaria Campinas",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Red Magus",
+          "brewery": "Charas Beer",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cerveja Do Funil - Red",
+          "brewery": "Cervejaria Do Funil",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "American Red Ale",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Barley Wine Ale": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Barley Wine #3",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Barley Wine #3",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Hunsrück Barley Wine",
+          "brewery": "Cervejaria Hunsruck",
+          "state": "RS"
+        }
+      ]
+    },
+    "American-Style Black Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Black Boom Ipa",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Strata Series 3",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Black Storm",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Black Dandara",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ruradélica Ales - Velvet",
+          "brewery": "Ruradelica Ales",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Dark Wings",
+          "brewery": "Yellow Bird Brewery",
+          "state": "PR"
+        }
+      ]
+    },
+    "American-Style Brown Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Brown Bill",
+          "brewery": "Charas Beer",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Thoruna American Brown Ale",
+          "brewery": "Cervejaria Walnut",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "James Brown",
+          "brewery": "Wuff Bier",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Vale Do Contestado",
+          "brewery": "Natural Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Strata Series 4",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Brown Storm",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Cream Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Barnia Cream Ale",
+          "brewery": "Barnia Cervejaria",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Magbeer Pilsen",
+          "brewery": "Magbeer",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Maestro Pilsen",
+          "brewery": "Cervejaria Maestro",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Power Parks",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Maestro Pilsen",
+          "brewery": "Cervejaria Maestro",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Dark Lager": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Rancho Dark Lager",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cerveja Do Funil - Black",
+          "brewery": "Cervejaria Do Funil",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Meia-Noite Americana",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "N.i.b - Nênes In Black",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Fruit Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Dumb",
+          "brewery": "Cervejaria Sp 330",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Buona Sour Pêssego",
+          "brewery": "Cervejaria Buonacerva Ltda",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Nina",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Dívidas De Sangre Non Se Pagan Con Monedas",
+          "brewery": "Cervejaria Juan Caloto",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Rótula Bier Chopp De Bergamota",
+          "brewery": "Cervejaria Rótula Bier",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cosvesi Fruit Beer",
+          "brewery": "Cosvesi",
+          "state": "SP"
+        }
+      ]
+    },
+    "American-Style Fruited Sour Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Brotas Cajú Sour",
+          "brewery": "Brotas Beer",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Barnia Sour Framboesa",
+          "brewery": "Barnia Cervejaria",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Limonada De Framboesa",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Camu Fruits",
+          "brewery": "Cervejaria Lobos",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Feira Da Fruta",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Sampler - Love Hurts",
+          "brewery": "Sampler Brew House",
+          "state": "RJ"
+        }
+      ]
+    },
+    "American-Style Imperial or Double India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Víbora Double Ipa",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Trarko Double Ipa",
+          "brewery": "Cervejaria Trarko",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Calipa",
+          "brewery": "Cervejaria Alcatraz",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Víbora Double Ipa",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Imperial Porter": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Pecado Imperial",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Denker Imperial Stout",
+          "brewery": "Cervejaria Denker",
+          "state": "RJ"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Roots Strong",
+          "brewery": "Três Torres",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Leopoldina - Leopoldina Imperial Stout Safra 2022",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Porter",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Imperial Stout": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "1822 Imperial Stout",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Barnia Ris",
+          "brewery": "Barnia Cervejaria",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Coffe Ris",
+          "brewery": "Omas Haus Brewpub",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "American Ris",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Storm",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Punk Rópi Ipa",
+          "brewery": "Musaranho",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Johnny Ipa",
+          "brewery": "Três Torres",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Mills - Bedrock",
+          "brewery": "Mills",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Moon Days",
+          "brewery": "Cervejaria Moondri",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cachorro Ovelheiro",
+          "brewery": "Cervejaria Guarnieri",
+          "state": "RS"
+        }
+      ]
+    },
+    "American-Style India Pale Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Zanotelli Hop Lager",
+          "brewery": "Zanotelli Cervejaria",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Margarida Das Nuvens",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Sampler - Ipl",
+          "brewery": "Sampler Brew House",
+          "state": "RJ"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Margarida Das Nuvens",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Zanotelli Hop Lager",
+          "brewery": "Zanotelli Cervejaria",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Kaingang Nz Pils",
+          "brewery": "Kaingang Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Pilsen - Wolfes Bier",
+          "brewery": "Cervejaria Wolfes Bier",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Vila Pilsen",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Perseguida",
+          "brewery": "Cervejaria Ayres",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Pilsen",
+          "brewery": "Minke Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Diva Pilsen",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Ultra Leve - Pilsen",
+          "brewery": "Green Head",
+          "state": "RS"
+        }
+      ]
+    },
+    "American-Style Light Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Bionda Light Lager",
+          "brewery": "Cervejaria Bionda",
+          "state": "MT"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Light Lager",
+          "brewery": "Senhor Do Malte",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Divina Lager",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Hunsruck Bicentenario",
+          "brewery": "Cervejaria Hunsruck",
+          "state": "RS"
+        }
+      ]
+    },
+    "American-Style Maerzen/Oktoberfest": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Munique 26",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Lassberg Oktoberfest Marzen",
+          "brewery": "Cervejaria Lassberg",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Patanegra American Oktoberfest",
+          "brewery": "Cervejaria Patanegra",
+          "state": "PR"
+        }
+      ]
+    },
+    "American-Style Malt Liquor": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Malt Liquor Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Bairrista",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Walnut Pilsen",
+          "brewery": "Cervejaria Walnut",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Faroeste Lager",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Apa",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Karsten New Apa",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Urwald American Pale Ale",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Unika Apa Mosaic",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Minas Apa",
+          "brewery": "Minas Bier Ltda",
+          "state": "MG"
+        }
+      ]
+    },
+    "American-Style Pilsener": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Haenschbier Hop Ale",
+          "brewery": "Haenschbier",
+          "state": "SC"
+        }
+      ],
+      "cbc": []
+    },
+    "American-Style Sour Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Torta De Limão",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Königs Catharina Sour Maçã E Canela",
+          "brewery": "Cervejaria Königs Bier",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Patanegra Sour Ale Cacacu",
+          "brewery": "Cervejaria Patanegra",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Lobos Sour Ale",
+          "brewery": "Cervejaria Lobos",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Königs Catharina Sour Maçã E Canela",
+          "brewery": "Cervejaria Königs Bier",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Stout": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Stout Querendo",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Hop Black Hawk",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Zebra",
+          "brewery": "Ruradelica Ales",
+          "state": "RS"
+        }
+      ]
+    },
+    "American-Style Strong Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Rótula Bier American Ipa",
+          "brewery": "Cervejaria Rótula Bier",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Faroeste Ipa",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Strongapa Do Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Rótula Bier American Ipa",
+          "brewery": "Cervejaria Rótula Bier",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Amarillo Pacific Ipa",
+          "brewery": "Cervejaria Amarillo",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Claudipa",
+          "brewery": "Almirante Cervejaria Artesanal",
+          "state": "SC"
+        }
+      ]
+    },
+    "American-Style Wheat Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Solaris",
+          "brewery": "Magbeer",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Nuvem Baixa",
+          "brewery": "Arum Cervejaria",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Juicy American Wheat",
+          "brewery": "Musaranho",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Fauno Curiango - American Wheat",
+          "brewery": "Fauno - Cervejas Artesanais Ltda",
+          "state": "SP"
+        }
+      ]
+    },
+    "American-Style Wheat Wine Ale": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "In \"Trigo\" We Trust!",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Centzon Totochtin",
+          "brewery": "Cervejaria Nahualli",
+          "state": "RS"
+        }
+      ]
+    },
+    "Australasian, Latin American or Tropical-Style Light Lager": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Madre Pils Sem Glúten",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Australasian, Latin American Or Tropical-Style Light Lager",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        }
+      ]
+    },
+    "Australian-Style Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Mills - Springfield",
+          "brewery": "Mills",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Appaloosa",
+          "brewery": "Colt Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Copa Do Mundo Series - Austrália",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Pale Ale",
+          "brewery": "Däsorla Encosta Cervejeira",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Lobo Australiano",
+          "brewery": "Cervejaria Lobos",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Galeza Galo Cupincha Apa",
+          "brewery": "Cervejaria Paralelo 30",
+          "state": "RS"
+        }
+      ]
+    },
+    "Baltic-Style Porter": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Baltic Porter",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Porter Series - Dementadora 1",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Singularidade",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Naufragados Baltic Porter",
+          "brewery": "Cervejaria Kairós",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Dementadora 1",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ]
+    },
+    "Bamberg-Style Bock Rauchbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "1824 Imigração Rauch Bock",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Bacon Serenade",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "1824 Imigração Rauch Bock",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Bacon Serenade",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        }
+      ]
+    },
+    "Bamberg-Style Helles Rauchbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Westphalia Helles",
+          "brewery": "Bergerbier",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "O Menino Sep",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Mundo Em Confusão",
+          "brewery": "Nave",
+          "state": "RS"
+        }
+      ]
+    },
+    "Bamberg-Style Maerzen Rauchbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Urwald Rauchbier",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Fumaça Do Corpo-Seco",
+          "brewery": "Cervejaria Ituiutaba",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Ruby Rauch",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Pegou Fogo No Celeiro",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Pomerânia Rauchbier",
+          "brewery": "Cervejaria Pomerânia",
+          "state": "SC"
+        }
+      ]
+    },
+    "Belgian-Style Blonde Ale": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Blauer Berg Blond Ale",
+          "brewery": "Blauer Berg Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Leopoldina - Leopoldina Blond Ale",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Dna Belgian Blond",
+          "brewery": "Dna Beer",
+          "state": "RS"
+        }
+      ]
+    },
+    "Belgian-Style Dubbel": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Monnik Arnold",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ziel Nicolau",
+          "brewery": "Cervejaria Ziel",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cervejaria Leopoldina - Leopoldina Dubbel",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Monnik Arnold",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Belgian Dubbel #2",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        }
+      ]
+    },
+    "Belgian-Style Flanders Oud Bruin or Oud Red Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Oud Bruin",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Reserva Giuseppe",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Scarlett Flanders",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Arquiduquesa De Galló",
+          "brewery": "Selezione Shop",
+          "state": "RS"
+        }
+      ]
+    },
+    "Belgian-Style Fruit Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Cupuaçu - Brett",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cervejaria Três Santas - O Novo Dia",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Baronesa Framboise",
+          "brewery": "Ade Bier Cervejaria",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cupuaçu Saison Collab I Lupi E Três Santas",
+          "brewery": "I Lupi Cervejaria",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Amicizia",
+          "brewery": "Birrificio Frisanco",
+          "state": "SC"
+        }
+      ]
+    },
+    "Belgian-Style Fruit Lambic": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Lobos Fruit Lambic",
+          "brewery": "Cervejaria Lobos",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Mother Gaia",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "Belgian-Style Lambic": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Denker Ana Bierhaus Lambic Classic",
+          "brewery": "Cervejaria Denker",
+          "state": "RJ"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Goddess Calíope",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "Belgian-Style Quadrupel": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Quadrupel",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Belgian Series 4",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Sax",
+          "brewery": "Casa Do Malte",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Quadrupel",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Quadrupel Charas",
+          "brewery": "Charas Beer",
+          "state": "RS"
+        }
+      ]
+    },
+    "Belgian-Style Session Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Witbier Low Alcohol",
+          "brewery": "Marchand Beer Co.",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Belgian Single Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "White Beer",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Witbier Low Alcohol",
+          "brewery": "Marchand Beer Co.",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Eva Witbier",
+          "brewery": "Bucovina Cervejaria",
+          "state": "PR"
+        }
+      ]
+    },
+    "Belgian-Style Speciale Belge": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Bela Belga",
+          "brewery": "Charas Beer",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Tendel Belgian Pale Ale",
+          "brewery": "Tendel",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Bela Belga",
+          "brewery": "Charas Beer",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Tendel Belgian Pale Ale",
+          "brewery": "Tendel",
+          "state": "SC"
+        }
+      ]
+    },
+    "Belgian-Style Strong Blonde Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Strong Registrada",
+          "brewery": "Cervejaria Registrada",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Big Jack Strong Blonde",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Psychose Belgian Strong Ale",
+          "brewery": "Cervejaria Nut Bier",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Bronze",
+          "beer": "Psychose Belgian Strong Ale",
+          "brewery": "Cervejaria Nut Bier",
+          "state": "PR"
+        }
+      ]
+    },
+    "Belgian-Style Strong Dark Ale": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Fradim",
+          "brewery": "Cervejaria Seo Carneiro",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Ahuiateteo",
+          "brewery": "Cervejaria Nahualli",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Edelbrau Belgian Dark Strong Ale",
+          "brewery": "Cervejaria Edelbrau",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cerveja Bodebrown 4 Blés - Le Club 4 Blès Milléssime 2025",
+          "brewery": "Cervejaria Bodebrown Ltda",
+          "state": "PR"
+        }
+      ]
+    },
+    "Belgian-Style Table Beer": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Table Bruin",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Table Beer",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cherokee - Mesa Belga",
+          "brewery": "Cervejaria Cherokee",
+          "state": "SC"
+        }
+      ]
+    },
+    "Belgian-Style Tripel": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Tripel",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ronchi Beer - Belgian Tripel",
+          "brewery": "Cervejaria Ronchi Beer",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Belgian Series 3",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Tripel",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Tripel",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Eva Tripel",
+          "brewery": "Bucovina Cervejaria",
+          "state": "PR"
+        }
+      ]
+    },
+    "Belgian-Style Witbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina - Leopoldina Witbier",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Elementum Witbier",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Witbier Dakza",
+          "brewery": "Dakza Brewing",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "(048) Witbier",
+          "brewery": "Cervejaria 048 Ltda",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Chuquinha",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Leopoldina - Leopoldina Witbier",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ]
+    },
+    "Berliner-Style Weisse": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Old Stuff",
+          "brewery": "I Lupi Cervejaria",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Tropical Base",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Sour De Caju",
+          "brewery": "Proa Cervejaria",
+          "state": "BA"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Tropical Base",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Dádiva Cara De Piscina Caju",
+          "brewery": "Cervejaria Dádiva",
+          "state": "SP"
+        }
+      ]
+    },
+    "Brazilian-Style Fruit Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Tropical Sour",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cupuaçu Saison Collab I Lupi E Três Santas",
+          "brewery": "I Lupi Cervejaria",
+          "state": "ES"
+        }
+      ],
+      "cbc": []
+    },
+    "Brazilian-Style Herb or Spiced Beer": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Bock N Amburana",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        }
+      ],
+      "cbc": []
+    },
+    "Brazilian-Style Wood Aged Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Terminus 2026",
+          "brewery": "Daoravida Brewpub",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Manipueira Cachaça",
+          "brewery": "Cervejaria Sp 330",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Terminus 2025",
+          "brewery": "Daoravida Brewpub",
+          "state": "SP"
+        }
+      ],
+      "cbc": []
+    },
+    "Breslau-Style Schoeps": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Carneiro De Breslau",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Breslávia",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Schoeps",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        }
+      ]
+    },
+    "Brett Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "B-E.a (Brett Saison)",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Mr. Brew Experience - Brett Saison Com Butiá",
+          "brewery": "Mr. Brew Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Saison Castanheira",
+          "brewery": "Água Do Monge Cervejaria",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Leopoldina - Leopoldina Tripel Bret",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ]
+    },
+    "British-Style Barley Wine Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Leopoldina - Leopoldina Barley Wine Safra 2020",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Barleywine Visionário",
+          "brewery": "Cervejaria Ronchi Beer",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Camaçada De Pau",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "La Birra Barley Wine",
+          "brewery": "La Birra Cervejaria",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Karsten Barley Wine",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ]
+    },
+    "British-Style Imperial Stout": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Wonka",
+          "brewery": "Cervejaria Vitruviana",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cervejaria Leopoldina - Leopoldina Imperial Stout",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Os Nêne Arrepia",
+          "brewery": "Cervejaria Karsten",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Só Ris E Nada Mais",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ris",
+          "brewery": "Cervejaria Sarau",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cerveja Do Funil - Imperial Stout",
+          "brewery": "Cervejaria Do Funil",
+          "state": "MG"
+        }
+      ]
+    },
+    "British-Style India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Brotherhood",
+          "brewery": "Hop Bros Cervejaria",
+          "state": "AL"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ipa - Wolfes Bier",
+          "brewery": "Cervejaria Wolfes Bier",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Mary Rose English Ipa",
+          "brewery": "Überbräu",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Lovely Day",
+          "brewery": "Alright Brewing Co.",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Brux Ipa",
+          "brewery": "Brux Beer",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Brotherhood",
+          "brewery": "Hop Bros Cervejaria",
+          "state": "AL"
+        }
+      ]
+    },
+    "Brown Porter": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Ashby Porter",
+          "brewery": "Cervejaria Ashby",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Buraco Negro",
+          "brewery": "Caras De Malte",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "London Dock",
+          "brewery": "Cervejaria Trarko",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Dorothy Porter",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Porter - Tex Beer",
+          "brewery": "Tex Beer Cervejaria Artesanal Ltda",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Velha Guarda",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "Brut Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Brut Sur Lie Safra 2024",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Leopoldina Brut Sur Lie Safra 2025",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Três Santas Tripel Brut",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": []
+    },
+    "California Common Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Velho Commom Karsten",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Faroeste",
+          "brewery": "Piwo Cervejaria Artesanal",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "1824 Imigração California",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        }
+      ],
+      "cbc": []
+    },
+    "Catharina Sour": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Marés - Carranca Goiaba E Framboesa",
+          "brewery": "Cervejaria Marés",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Catharina Sour San Andreas",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Maestro Catharina Sour Maracujá E Cajá",
+          "brewery": "Cervejaria Maestro",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Pina Colada - Catharina Sour Com Abacaxi E Coco",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Catharina Sour Goiacuja",
+          "brewery": "Omas Haus Brewpub",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Mandacaru",
+          "brewery": "Liffey",
+          "state": "SC"
+        }
+      ]
+    },
+    "Cerveja com Madeira Brasileira (Brazilian Wood- and Barrel-Aged Beer)": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Terminus 2026",
+          "brewery": "Daoravida Brewpub",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Terminus 2025",
+          "brewery": "Daoravida Brewpub",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Pinganimim Tarvos",
+          "brewery": "Cervejaria Tarvos",
+          "state": "ES"
+        }
+      ]
+    },
+    "Cerveja Experimental com Madeira Brasileira (Experimental Brazilian Wood- and Barrel-Aged Beer)": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Colombina Poema",
+          "brewery": "Cerveja Colombina",
+          "state": "GO"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Patanegra Imperial Cocoarana",
+          "brewery": "Cervejaria Patanegra",
+          "state": "PR"
+        }
+      ]
+    },
+    "Cerveja Ácida com Madeira Brasileira (Brazilian Wood- and Barrel-Aged Sour Beer)": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Patanegra Cacacu Wood",
+          "brewery": "Cervejaria Patanegra",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Lobos Wood And Sour",
+          "brewery": "Cervejaria Lobos",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Flora Fractal",
+          "brewery": "Fermentaria Local",
+          "state": "SP"
+        }
+      ]
+    },
+    "Chili Pepper Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Ponta De Areia",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Haenschbier Catharina Sour Maracujá Com Pimenta",
+          "brewery": "Haenschbier",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Lua De Mel Com Os Parças",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Muerto Pero No Mucho!",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cervejaria Green Coast - Tripel",
+          "brewery": "Cervejaria Green Coast",
+          "state": "SC"
+        }
+      ]
+    },
+    "Chocolate or Cocoa Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Sirius",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Tendel Barleywine",
+          "brewery": "Tendel",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Maya",
+          "brewery": "Três Torres",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Mexicana Bob Nibs",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ipa Cacau",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Risca Faca Imperial Stout",
+          "brewery": "Cervejaria Vierbrauer",
+          "state": "PB"
+        }
+      ]
+    },
+    "Classic Australian-Style Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Session Ipa",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Classic Australian Pale Ale",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Session Ipa",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Lassberg Classic Australian Apa",
+          "brewery": "Cervejaria Lassberg",
+          "state": "SC"
+        }
+      ]
+    },
+    "Classic English-Style Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Cervejaria Do Funil - Funil Ipa",
+          "brewery": "Cervejaria Do Funil",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Do Funil - Funil Ipa",
+          "brewery": "Cervejaria Do Funil",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Vemaguet 67 - Turbinada",
+          "brewery": "Vemaguet 67",
+          "state": "SP"
+        }
+      ]
+    },
+    "Classic French & Belgian-Style Saison": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Cabula",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "River Falls Brewing Co - Saison Du Crocodile",
+          "brewery": "River Falls Brewing Co.",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Saison Pitaya",
+          "brewery": "Água Do Monge Cervejaria",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cabula",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Forbidden Saison",
+          "brewery": "Cervejaria Teoria Do Caos",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Saison",
+          "brewery": "Cambuí Cervejaria E Bar De Estar",
+          "state": "DF"
+        }
+      ]
+    },
+    "Classic Irish-Style Dry Stout": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Dryer Machine",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Wuff Stout",
+          "brewery": "Wuff Bier",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Midnight Train",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Dublin Mist",
+          "brewery": "Marchand Beer Co.",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Midnight Train",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Stout",
+          "brewery": "Cervejaria Brusque",
+          "state": "SC"
+        }
+      ]
+    },
+    "Coffee Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "O Dragão Acordou",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Speranza Arábica Lager",
+          "brewery": "Cervejaria Speranza",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "A Noite Vai Ficando Mais Escura",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Louvada - Louvada Pilsen",
+          "brewery": "Cervejaria Louvada",
+          "state": "MT"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Comcafé Jacu",
+          "brewery": "Três Torres",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "O Dragão Acordou",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ]
+    },
+    "Contemporary American-Style Lager": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Cervejaria Dosmoret - Just Pils",
+          "brewery": "Cervejaria Dosmoret",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Brotas Beer Pilsen",
+          "brewery": "Brotas Beer",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Stier Bier Pilsen",
+          "brewery": "Cervejaria Stier",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Edelbrau Pilsen",
+          "brewery": "Cervejaria Edelbrau",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Fredericia Pilsen",
+          "brewery": "Fredericia",
+          "state": "SP"
+        }
+      ]
+    },
+    "Contemporary American-Style Light Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Bruder Alma Cevada Premium Lager",
+          "brewery": "Cervejaria Brüder",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Urwald Light Lager - Pilsen",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Hunsruck German Michels",
+          "brewery": "Cervejaria Hunsruck",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Stier Festbier",
+          "brewery": "Cervejaria Stier",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Diva Lager",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        }
+      ]
+    },
+    "Contemporary American-Style Pilsener": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Marés - Tripulante",
+          "brewery": "Cervejaria Marés",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Hop Lager",
+          "brewery": "277 Craft Beer",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Golden Mist - Hop Lager",
+          "brewery": "Golden Mist",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Hop Lager",
+          "brewery": "277 Craft Beer",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Dama Hop Lager",
+          "brewery": "Dama Bier",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Summer Splash",
+          "brewery": "Hermosa Beer Company",
+          "state": "RS"
+        }
+      ]
+    },
+    "Contemporary Belgian-Style Spontaneous Fermented Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Jabuticaba Selvagem",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Conoscenza",
+          "brewery": "Birrificio Frisanco",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Reserva Local",
+          "brewery": "Fermentaria Local",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Rubra De Fazenda 2025",
+          "brewery": "Cervejaria Endemic",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Lobos Spontaneous",
+          "brewery": "Cervejaria Lobos",
+          "state": "PR"
+        }
+      ]
+    },
+    "Contemporary-Style Gose": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Tropical Gose",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Marina",
+          "brewery": "Cervejaria Aurora",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Gose De Caju",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Tropical Gose",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Danken Limón Gose",
+          "brewery": "Danken Cervejaria",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "(048) Gose Goiaba E Alecrim",
+          "brewery": "Cervejaria 048 Ltda",
+          "state": "SC"
+        }
+      ]
+    },
+    "Czech-Style Amber Lager": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Czech Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Kaingang Czech Amber Lager",
+          "brewery": "Kaingang Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "Czech-Style Dark Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Praga Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Tmavy Slad",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Tendel Czach Dark Lager",
+          "brewery": "Tendel",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Tendel Czach Dark Lager",
+          "brewery": "Tendel",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Space Traveler",
+          "brewery": "Paloma Craft Beer",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Czech Dark Lager",
+          "brewery": "Musaranho",
+          "state": "SC"
+        }
+      ]
+    },
+    "Czech-Style Pale Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Tendel Bohemian Pils",
+          "brewery": "Tendel",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "1824 Imigração Bohemian Pilsner",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Czech Vila - Tcheca",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Bohemian Pilsener",
+          "brewery": "Alright Brewing Co.",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ponte Herícilio Luz",
+          "brewery": "Natural Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Orloj",
+          "brewery": "Ritual Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "Dessert Stout or Pastry Stout": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Teorema Do Chocolate Infinito",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Magia Negra",
+          "brewery": "Dakza Brewing",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "A Prova De Que Vivemos Em Uma Simulação",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "5 Elementos/Mindubier Salted Caramel",
+          "brewery": "Cervejaria Turatti",
+          "state": "CE"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Peanutcake Yin",
+          "brewery": "Ritual Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "(048) Pastry Stout Banana Passa, Baunilha E",
+          "brewery": "Cervejaria 048 Ltda",
+          "state": "SC"
+        }
+      ]
+    },
+    "Dorada Pampeana": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Pelé > Maradona",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": []
+    },
+    "Dortmunder/European-Style Export": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Partenza",
+          "brewery": "Birrificio Frisanco",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "1824 Imigração Export",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Urwald Dortmund Export",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Canela Faroeste Export",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Curicaca Gold",
+          "brewery": "Cervejaria Flagra",
+          "state": "PR"
+        }
+      ]
+    },
+    "Double Hoppy Red Ale": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Golden Mist - Red Ipa",
+          "brewery": "Golden Mist",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "A Fúria De Skoll - Red Ipa Berg Bier",
+          "brewery": "Berg Bier",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Diva Do Lago",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Double Hoppy Red Ale",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Hells Bells",
+          "brewery": "Armada Cervejeira",
+          "state": "SC"
+        }
+      ]
+    },
+    "Dutch-Style Kuit, Kuyt or Koyt": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Kaaskop",
+          "brewery": "Cervejaria Seo Carneiro",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Bronze",
+          "beer": "Kaaskop",
+          "brewery": "Cervejaria Seo Carneiro",
+          "state": "SP"
+        }
+      ]
+    },
+    "English-Style Brown Ale": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Red Ale Código De Bar Eba",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Seu Fausto",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Búzios Ponta Do Pai Vitório",
+          "brewery": "Cervejaria Búzios",
+          "state": "RJ"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Salvador Brewing Co. - Dog Fight Brown Ale",
+          "brewery": "Salvador",
+          "state": "RS"
+        }
+      ]
+    },
+    "English-Style Dark Mild Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Stout Flush",
+          "brewery": "Colt Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Old Tavern",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Dom Rodrigo",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Until Dawn",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Old Tavern",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "English-Style Pale Mild Ale": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "English Series 1",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "English Series 1",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "English-Style Summer Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Roleta Russa Easy Ipa",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "English Summer Ale",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Summer Ale Der Mueller",
+          "brewery": "Der Mueller",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "English Summer Ale",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Búzios Olho De Boi",
+          "brewery": "Cervejaria Búzios",
+          "state": "RJ"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Grecia Bier",
+          "brewery": "Both Bier",
+          "state": "SC"
+        }
+      ]
+    },
+    "European-Style Dark Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Schwarzbier",
+          "brewery": "Genaus Bier",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Brotas Beer Schwarzbier",
+          "brewery": "Brotas Beer",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Gold Ebony Dark Munich",
+          "brewery": "Giffa",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Eisenbahn Dunkel",
+          "brewery": "Hnk Br Industria De Bebidas Ltda",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "La Birra Schwarzbier",
+          "brewery": "La Birra Cervejaria",
+          "state": "RS"
+        }
+      ]
+    },
+    "Experimental Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Tendel Black Barleywines",
+          "brewery": "Tendel",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Fruit Bier Morango E Pitaya",
+          "brewery": "Cervejaria Maestro",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Sampler - Soul To Squeeze",
+          "brewery": "Sampler Brew House",
+          "state": "RJ"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cappuccino Gelado",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "5 Elementos - Guava Cheesecake",
+          "brewery": "Cervejaria Turatti",
+          "state": "CE"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Bodebrown Double Perigosa 18%",
+          "brewery": "Cervejaria Bodebrown Ltda",
+          "state": "PR"
+        }
+      ]
+    },
+    "Experimental India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "White Ipa",
+          "brewery": "Cervejaria Artesanal Grecco",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ice Ipa",
+          "brewery": "Cervejaria Sp 330",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Nature Brut",
+          "brewery": "Três Torres",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Lemon Dragon",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Nature Brut",
+          "brewery": "Três Torres",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Mel Da Goiaba",
+          "brewery": "Donkey Head Cervejaria",
+          "state": "CE"
+        }
+      ]
+    },
+    "Export-Style Stout": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Vinil 78 Rpm",
+          "brewery": "Cervejaria Vinil",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Mr. Brew - Stout",
+          "brewery": "Mr. Brew Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Export Stout",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Dama Bier - Dama Stout",
+          "brewery": "Dama Bier",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Wamahoy Extra Stout",
+          "brewery": "Wamahoy Classic Beers",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Fil Stout",
+          "brewery": "Cervejaria Fil",
+          "state": "RS"
+        }
+      ]
+    },
+    "Extra Special Bitter": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Peter The Bitter",
+          "brewery": "Three Monkeys Beer",
+          "state": "RJ"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Ashby British Strong Ale",
+          "brewery": "Cervejaria Ashby",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "English Serelepe Brasileira",
+          "brewery": "Caatinga Rocks",
+          "state": "AL"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cascahell",
+          "brewery": "Cervejaria Providência",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Ashby British Strong Ale",
+          "brewery": "Cervejaria Ashby",
+          "state": "SP"
+        }
+      ]
+    },
+    "Field Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "O Olhar Dos Seres Das Matas",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "To Com Amendoin Cheio",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "To Com Amendoin Cheio",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cajuina",
+          "brewery": "Minke Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Sour Ale Com Abacaxi E Coco",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        }
+      ]
+    },
+    "Finnish-Style Sahti": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Mr. Brew/Olaf/Vkmalts - Kalsarikännit Sahti",
+          "brewery": "Mr. Brew Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Vanaheim",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Biertal Sahti",
+          "brewery": "Cervejaria Biertal",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Singing Vikman",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "Franconian-Style Rotbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Rouge Lager",
+          "brewery": "Sexto Sentido Cervejaria",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Jordana Bier Burning Heart Red Lager",
+          "brewery": "Cervejaria Jordana Bier Ltda",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Elementum Red Lager",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Buckel Red Ale La Roja",
+          "brewery": "Buckel Cervejaria",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Franconian Rotbier",
+          "brewery": "Cervejaria Canecão",
+          "state": "SC"
+        }
+      ]
+    },
+    "Fresh Hop Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Terra Boa Hop Lager",
+          "brewery": "Terra Boa",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Terra Boa - Terra Boa Ipa",
+          "brewery": "Terra Boa",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Explosão Nacional",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Feel The Freshness",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Honky Tonk Nerso",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        }
+      ]
+    },
+    "Fruit Wheat Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Aurora Cítrus",
+          "brewery": "Magbeer",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Ashby Wheat Raspberry",
+          "brewery": "Cervejaria Ashby",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Lassberg Fruit Beer",
+          "brewery": "Cervejaria Lassberg",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cajá Naif",
+          "brewery": "Curiango Brew - Cervejas Especiais",
+          "state": "TO"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Fruit Beer Caju",
+          "brewery": "Curiango Brew - Cervejas Especiais",
+          "state": "TO"
+        }
+      ]
+    },
+    "German-Style Altbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Vecchia Birra",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "O Mago",
+          "brewery": "Bergerbier",
+          "state": "ES"
+        }
+      ],
+      "cbc": []
+    },
+    "German-Style Doppelbock": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Ghost Of The Navigator",
+          "brewery": "Cervejaria Artesanal Conceição",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Big Jack Doppelbock",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Opa Vesta",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Big Jack Doppelbock",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Karsten Doppelbock",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Jejum Do Alligator",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "German-Style Eisbock": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Karsten Eisbock",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Eisbock #2",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Eis-Eis Edelweiss",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Xiuhte",
+          "brewery": "Cervejaria Nahualli",
+          "state": "RS"
+        }
+      ]
+    },
+    "German-Style Heller Bock/Maibock": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Golden Bock",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": []
+    },
+    "German-Style Koelsch": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Kopf Kölsch",
+          "brewery": "Magbeer",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "1824 Imigração Hop Lager",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Himmel Kölsch",
+          "brewery": "Himmel Bier",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Big Jack Cologne",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "1824 Imigração Hop Lager",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        }
+      ]
+    },
+    "German-Style Leichtbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Svetle Pivo",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Stier Ultra",
+          "brewery": "Cervejaria Stier",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Dolomitas German Pils",
+          "brewery": "Cervejaria Dolomitas",
+          "state": "PR"
+        }
+      ]
+    },
+    "German-Style Leichtes Weizen": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Furst Catalina Weiss",
+          "brewery": "Cervejaria Furst",
+          "state": "MG"
+        }
+      ],
+      "cbc": []
+    },
+    "German-Style Maerzen": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Furst Oktoberfest",
+          "brewery": "Cervejaria Furst",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Bierbaum Keller",
+          "brewery": "Cervejaria Bierbaum",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Urwald Oktoberfest",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Urwald Oktoberfest",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Maerzen Heidi",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Capital Da Amizade",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        }
+      ]
+    },
+    "German-Style Oktoberfest/Festbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "1824 Imigração Oktoberfest",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Karsten Munich Helles",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "1824 Imigração Oktoberfest",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Karsten Munich Helles",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ]
+    },
+    "German-Style Pilsener": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Tendel German Pils",
+          "brewery": "Tendel",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Leopoldina German Pilsener",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Querência",
+          "brewery": "Paisano Brew Co",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Urwald German Pilsner",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Frohenfeld Pils",
+          "brewery": "Frohenfeld Craft Brewery",
+          "state": "PR"
+        }
+      ]
+    },
+    "German-Style Rye Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Bavarian Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Bronze",
+          "beer": "Bavarian Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "German-Style Schwarzbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Schwarzbier - Wolfes Bier",
+          "brewery": "Cervejaria Wolfes Bier",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Sampler - Schwarzbier",
+          "brewery": "Sampler Brew House",
+          "state": "RJ"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Velha Dos Feitiços",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Edelbrau Dunkel",
+          "brewery": "Cervejaria Edelbrau",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Dark Lager",
+          "brewery": "Cruls Cervejaria Artesanal",
+          "state": "DF"
+        }
+      ]
+    },
+    "Ginjo Beer or Sake-Yeast Beer": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Ginjo Katana",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": []
+    },
+    "Gluten-Free Beer": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cajuzada De Morango Glúten Que Lute",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Turatti Ultra Low Carb",
+          "brewery": "Cervejaria Turatti",
+          "state": "CE"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Brew Up - Hoppy Hour Sem Glúten",
+          "brewery": "Brew Up",
+          "state": "RS"
+        }
+      ]
+    },
+    "Gluten-Free Enzimático": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Cajuzada De Morango Glúten Que Lute",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Limonada De Morango Fugiu Do Glúten",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cajuzada Nem Bêbada Nem Com Glúten",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": []
+    },
+    "Golden or Blonde Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Minas Blonde",
+          "brewery": "Minas Bier Ltda",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Golden Boys",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Chopp Hauk",
+          "brewery": "Cervejaria Hauk",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Rock Blondie",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "Grodziskie": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Grodziskie",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Piwo Zoja",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "Herb and Spice Beer": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Pão De Canela",
+          "brewery": "Cervejaria Buonacerva Ltda",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "O Casamento De Pedro Piol",
+          "brewery": "Três Torres",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Venner",
+          "brewery": "Gård Cervejaria",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Dazchen Christmas Ale",
+          "brewery": "Däzchen Cervejas Especiais",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "5 Elementos - Reserve 2025",
+          "brewery": "Cervejaria Turatti",
+          "state": "CE"
+        }
+      ]
+    },
+    "Historical Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Tendel Stout",
+          "brewery": "Tendel",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Relíquia De Lichtenhain",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Lichtenhainer Wood",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Thanks, Hildegarde!",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Grisette",
+          "brewery": "Omas Haus Brewpub",
+          "state": "SC"
+        }
+      ]
+    },
+    "Hop Lager": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Urwald Hop Lager",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Hop Lager",
+          "brewery": "Cervejaria Xaraés",
+          "state": "MT"
+        }
+      ],
+      "cbc": []
+    },
+    "Imperial Red Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Thoruna Red Ipa",
+          "brewery": "Cervejaria Walnut",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Big Red",
+          "brewery": "Três Torres",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Assanhada",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        }
+      ]
+    },
+    "International Light Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Pilsen",
+          "brewery": "Companhia Central De Bebidas",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Jack Light",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Kloster Pilsen",
+          "brewery": "Kloster",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Skol Pilsen",
+          "brewery": "Cervejaria Ambev",
+          "state": "RJ"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Jack Light",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Galeza Galo Véio Pilsen",
+          "brewery": "Cervejaria Paralelo 30",
+          "state": "RS"
+        }
+      ]
+    },
+    "International-Style Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Rótula Bier Pale Ale",
+          "brewery": "Cervejaria Rótula Bier",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "American Pale Ale (Apa Ekuanot & Mosaic)",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Roleta Russa Apa",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Malvada",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Jack Viajante",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Lassberg International Pale Ale",
+          "brewery": "Cervejaria Lassberg",
+          "state": "SC"
+        }
+      ]
+    },
+    "International-Style Pilsener": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Campinas Pilsen",
+          "brewery": "Cervejaria Campinas",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Puma German Lager",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Kloster Pils",
+          "brewery": "Kloster",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Dolomitas International Pilsener",
+          "brewery": "Cervejaria Dolomitas",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Danken Pils",
+          "brewery": "Danken Cervejaria",
+          "state": "RS"
+        }
+      ]
+    },
+    "Irish-Style Red Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Buona Red",
+          "brewery": "Cervejaria Buonacerva Ltda",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Brotas Beer Red Ale",
+          "brewery": "Brotas Beer",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Trarko Irish Red Ale",
+          "brewery": "Cervejaria Trarko",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "The Red Leprechau",
+          "brewery": "Bergerbier",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Amadeus Red Ale",
+          "brewery": "Cervejaria Amadeus",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Rotula Bier Red Ale",
+          "brewery": "Cervejaria Rótula Bier",
+          "state": "RS"
+        }
+      ]
+    },
+    "Italian Grape Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina - Leopoldina Italian Grape Ale Gewurztraminer",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Leopoldina - Leopoldina Italian Grape Ale Chardonnay Safra 2025",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Leopoldina - Leopoldina Italian Grape Ale Pinot Noir",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina - Leopoldina Italian Grape Ale Moscato",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Leopoldina Chardonnay Safra 2025",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Bordô Spritz",
+          "brewery": "Cantina Mascaron",
+          "state": "RS"
+        }
+      ]
+    },
+    "Italian-Style Pilsener": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Cervejaria Leopoldina - Leopoldina Pilsen",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Leopoldina - Leopoldina Pilsner Extra",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Italian Pilsener",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "Juicy or Hazy Imperial or Double India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Nz Hazy Ipa",
+          "brewery": "Marchand Beer Co.",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Oswaldo Renasce Nos Limites Da Consciencia",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Enfeite De Natal",
+          "brewery": "Captain Brew",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Nz Hazy Ipa",
+          "brewery": "Marchand Beer Co.",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Pass The Dutchie",
+          "brewery": "Cervejaria Vitruviana",
+          "state": "SP"
+        }
+      ]
+    },
+    "Juicy or Hazy India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Acadiana",
+          "brewery": "Três Torres",
+          "state": "ES"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Insight Hazy Ipa",
+          "brewery": "Dakza Brewing",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Skunk Juicy Ipa",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Stoked Nights",
+          "brewery": "Locals Only Brewing Co.",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cachorro Ovelheiro Hazy Ipa",
+          "brewery": "Cervejaria Guarnieri",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Acadiana",
+          "brewery": "Três Torres",
+          "state": "ES"
+        }
+      ]
+    },
+    "Juicy or Hazy Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Juicebox",
+          "brewery": "Marchand Beer Co.",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Big John Tricorn Hat - Neapa",
+          "brewery": "Big John Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Mills - Efêmera #6",
+          "brewery": "Mills",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Hop Burst",
+          "brewery": "Balbúrdia Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Hazy Ipa Pina Colada",
+          "brewery": "Charas Beer",
+          "state": "RS"
+        }
+      ]
+    },
+    "Juicy or Hazy Strong Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Leopoldina - Leopoldina Strong Hazy",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Roleta Russa New England",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Diussy Trem Hazy Ipa",
+          "brewery": "Überbräu",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Atrás Do Bloco",
+          "brewery": "Cervejaria Landel",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Drogas Siderais",
+          "brewery": "Nave",
+          "state": "RS"
+        }
+      ]
+    },
+    "Kellerbier or Zwickelbier": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Keller",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cervejaria Leopoldina - Keller German",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Kellerbier Series - Maibock",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Kellerbier Series - Bohemian Pilsener",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Chopp Nops Filtro",
+          "brewery": "Senhor Do Malte",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Bierbaum Keller",
+          "brewery": "Cervejaria Bierbaum",
+          "state": "SC"
+        }
+      ]
+    },
+    "Kentucky Common Beer": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Eu Sei Common",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Kentucky Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Eu Sei Common",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ]
+    },
+    "Leipzig-Style Gose": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Salgadinha Da Hank",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Leipzig Gose",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Salgadinha Da Hank",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "(048) Gose",
+          "brewery": "Cervejaria 048 Ltda",
+          "state": "SC"
+        }
+      ]
+    },
+    "Low Carb Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Big John Low Carb",
+          "brewery": "Big John",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cajueira Low Cab",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Low Carb Ipa",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": []
+    },
+    "Manipueira Selvagem": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Alagoas Funky Wild - Safra 2022-2023",
+          "brewery": "Caatinga Rocks",
+          "state": "AL"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Alagoas Funky Wild - Safra 2023-2024",
+          "brewery": "Caatinga Rocks",
+          "state": "AL"
+        }
+      ]
+    },
+    "Mexican-Style Amber Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Ligeirinho",
+          "brewery": "Hank Bier",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Copa Do Mundo Series - México",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Laut - Fuel Amber Lager",
+          "brewery": "Cervejaria Laut",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Copa Do Mundo Series - México",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "Mexican-Style Dark Lager": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Bigodão Mexicano",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Mexican Dark Lager",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        }
+      ]
+    },
+    "Mexican-Style Light Lager": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Muchacho",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Muchacho",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Mexican Lager",
+          "brewery": "Bucovina Cervejaria",
+          "state": "PR"
+        }
+      ]
+    },
+    "Mexican-Style Pale Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Pilsen Registrada",
+          "brewery": "Cervejaria Registrada",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Lucha Libre",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Lucha Libre",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "1824 Imigração Lager",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Corona",
+          "brewery": "Cervejaria Ambev",
+          "state": "RJ"
+        }
+      ]
+    },
+    "Mixed-Culture Brett Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Cacau Brett",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Saison Gabiroba",
+          "brewery": "Água Do Monge Cervejaria",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Saison Ipê",
+          "brewery": "Água Do Monge Cervejaria",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Turatti - Torta De Framboesa Com Maracujá",
+          "brewery": "Cervejaria Turatti",
+          "state": "CE"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cacau Brett",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Saison Gabiroba",
+          "brewery": "Água Do Monge Cervejaria",
+          "state": "PR"
+        }
+      ]
+    },
+    "Munich-Style Dunkel": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Bierbaum Dunkel",
+          "brewery": "Cervejaria Bierbaum",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Schwarz",
+          "brewery": "Genaus Bier",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Bierbaum Dunkel",
+          "brewery": "Cervejaria Bierbaum",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Fredericia Dunkel",
+          "brewery": "Fredericia",
+          "state": "SP"
+        }
+      ]
+    },
+    "Munich-Style Helles": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Karsten - Helles De Munich",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Kloster Pilsen",
+          "brewery": "Kloster",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Tendel Helles",
+          "brewery": "Tendel",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Helles Jack",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Flight One",
+          "brewery": "Yellow Bird Brewery",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Spaten",
+          "brewery": "Cervejaria Ambev",
+          "state": "RJ"
+        }
+      ]
+    },
+    "New Zealand-Style India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "New Zealand Ipa 277",
+          "brewery": "277 Craft Beer",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Haka Pop",
+          "brewery": "Marchand Beer Co.",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Ipa",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Ruradélica Ales - Neblina Flutuante",
+          "brewery": "Ruradelica Ales",
+          "state": "RS"
+        }
+      ]
+    },
+    "New Zealand-Style Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Farwest",
+          "brewery": "Colt Brew",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "A Ipa",
+          "brewery": "Genaus Bier",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Roleta Russa Ipa",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Nz Ipa Nelson Sauvin",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Brew Up - Cold Apa Nectaron",
+          "brewery": "Brew Up",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Kaingang New Zealand Pale Ale",
+          "brewery": "Kaingang Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "Non-Alcohol Malt Beverage": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Cajuzada Sem Álcool",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Sim! Cerveja Sem Álcool - Maracujá Sour'n Salt",
+          "brewery": "Sim! Cerveja Sem Álcool",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Jack N.a. Berliner",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Frade Na Boléia",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Suco Sem Confusão",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Bud Zero",
+          "brewery": "Cervejaria Ambev",
+          "state": "RJ"
+        }
+      ]
+    },
+    "Oatmeal Stout": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Denker Stout",
+          "brewery": "Cervejaria Denker",
+          "state": "RJ"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Campinas Andarilha Oatmeal Stout",
+          "brewery": "Cervejaria Campinas",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "1824 Imigração Oatmeal Stout",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "1824 Imigração Oatmeal Stout",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Vemaguet 67- Porta Malas",
+          "brewery": "Vemaguet 67",
+          "state": "SP"
+        }
+      ]
+    },
+    "Old Ale": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Para Abrir Quando Chegarmos Em Trappist-1 - Amburana",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cherokee - Old But Gold",
+          "brewery": "Cervejaria Cherokee",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Rendez-Vous La Belle Vieille",
+          "brewery": "Cervejaria La Belle Bière",
+          "state": "RS"
+        }
+      ]
+    },
+    "Ordinary Bitter": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Yellow Submarine",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": []
+    },
+    "Other Belgian-Style Ale": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Christmas Ale 2025",
+          "brewery": "Cia De Brassagem Brasil",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "O Julgamento Selvagem",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina - Leopoldina Tripel Bret Safra 2018",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Christmas Ale 2025",
+          "brewery": "Cia De Brassagem Brasil",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Maniacs Quad",
+          "brewery": "Maniacs Brewing Co.",
+          "state": "PR"
+        }
+      ]
+    },
+    "Other Origin Lager Styles": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Karsten Tropiacal Light Lager",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Madre Pils Sem Glúten",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Bairrista Villa Nova",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": []
+    },
+    "Other Strong Ale or Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Barley Wine Safra 2019",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Kesselgeist",
+          "brewery": "Trema Cervejaria",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Karsten Eisliquor",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina Barley Wine Safra 2019",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Other Strong",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Strong Porter",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        }
+      ]
+    },
+    "Pumpkin Spice Beer": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Pumpkenstein",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Doçuras Ou Travessuras?",
+          "brewery": "Cervejaria Dona Cevada",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Abróba",
+          "brewery": "Cervejaria 3 Orelhas",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Christine",
+          "brewery": "Old Car Brewpub",
+          "state": "PR"
+        }
+      ]
+    },
+    "Robust Porter": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Mills - Cacau Porter",
+          "brewery": "Mills",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Emma Blackberry",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cervejaria Leopoldina - Leopoldina Porter",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Compass Ellen",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Mills - Cacau Porter",
+          "brewery": "Mills",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Tendel Porter",
+          "brewery": "Tendel",
+          "state": "SC"
+        }
+      ]
+    },
+    "Scotch Ale or Wee Heavy": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Scotch Ale",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Scotch Ale",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Edelbrau Wee Heavy",
+          "brewery": "Cervejaria Edelbrau",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Bodebrown Wee Heavy",
+          "brewery": "Cervejaria Bodebrown Ltda",
+          "state": "PR"
+        }
+      ]
+    },
+    "Scottish-Style Export Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Red Ale Código De Bar Scotch",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Billy The Kilt",
+          "brewery": "Colt Brew",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cherokee - Red Ale",
+          "brewery": "Cervejaria Cherokee",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Dreams Annie",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Jack Highland",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "Scottish-Style Heavy Ale": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Stone",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": []
+    },
+    "Scottish-Style Light Ale": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Red Ale",
+          "brewery": "Água Do Monge Cervejaria",
+          "state": "PR"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cherokee - Levinha Escocesa",
+          "brewery": "Cervejaria Cherokee",
+          "state": "SC"
+        }
+      ]
+    },
+    "Session Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina - Leopoldina Session Pale Ale",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Kamille",
+          "brewery": "Cervejaria Seo Carneiro",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Atlantis",
+          "brewery": "Almirante Cervejaria Artesanal",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Kamille",
+          "brewery": "Cervejaria Seo Carneiro",
+          "state": "SP"
+        }
+      ]
+    },
+    "Session India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Mistral Session Ipa",
+          "brewery": "Dakza Brewing",
+          "state": "MG"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Karsten Session Ipa",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Reptilia Session Ipa",
+          "brewery": "Cervejaria Unika",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Session Ipa Cubículo",
+          "brewery": "Cervejaria Base",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Mills - Delorean",
+          "brewery": "Mills",
+          "state": "MG"
+        }
+      ]
+    },
+    "Smoke Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Mineirinha",
+          "brewery": "Cervejaria Registrada",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Bierbaum Doppelbock Defumada",
+          "brewery": "Cervejaria Bierbaum",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Lassberg Smoke Beer",
+          "brewery": "Cervejaria Lassberg",
+          "state": "SC"
+        }
+      ]
+    },
+    "Smoke Porter": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Cosvesi Smoked Porter",
+          "brewery": "Cosvesi",
+          "state": "SP"
+        }
+      ]
+    },
+    "South German-Style Bernsteinfarbenes Weizen": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Bronze",
+          "beer": "Drama Elza",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "South German-Style Hefeweizen": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Bierbaum Weiss Helles",
+          "brewery": "Cervejaria Bierbaum",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Mr. Brew - Weizen",
+          "brewery": "Mr. Brew Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Ronchi Weissbier",
+          "brewery": "Cervejaria Ronchi Beer",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Das Bier - Das Bier Weizen",
+          "brewery": "Das Bier Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Galeza Galo Branco Weiss",
+          "brewery": "Cervejaria Paralelo 30",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Mr. Brew - Weizen",
+          "brewery": "Mr. Brew Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "South German-Style Kristal Weizen": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Tendel Kristal Weizen",
+          "brewery": "Tendel",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cristal Weiss",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Tendel Kristal Weizen",
+          "brewery": "Tendel",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Black Princess Doctor Weiss",
+          "brewery": "Cervejaria Grupo Petrópolis",
+          "state": "SP"
+        }
+      ]
+    },
+    "South German-Style Weizenbock": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Ashby Weiss",
+          "brewery": "Cervejaria Ashby",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Sampler - Weizenbock",
+          "brewery": "Sampler Brew House",
+          "state": "RJ"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Bierbaum Weizenbock",
+          "brewery": "Cervejaria Bierbaum",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "High Hilda",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "Special Bitter or Best Bitter": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "English Series 2",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Mr. Brew - Weizen",
+          "brewery": "Mr. Brew Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Satisfaction",
+          "brewery": "Vila Dionísio",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Space Queen",
+          "brewery": "Nave",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Amarillo Best Bitter",
+          "brewery": "Cervejaria Amarillo",
+          "state": "SP"
+        }
+      ]
+    },
+    "Specialty Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Ronchi Beer Sweet Stout",
+          "brewery": "Cervejaria Ronchi Beer",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Alpendorf Imperial Gose Caramelo Salgado",
+          "brewery": "Cervejaria Alpendorf",
+          "state": "RJ"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Leopoldina Brut Sur Lie Safra 2024",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "5 Elementos - Coffee & Pancake Brunch Stout",
+          "brewery": "Cervejaria Turatti",
+          "state": "CE"
+        }
+      ]
+    },
+    "Specialty Honey Beer": {
+      "cbc2026": [],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Colorado Appia",
+          "brewery": "Cervejaria Colorado",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Penedon Honey Bock",
+          "brewery": "Cervejaria Penedon",
+          "state": "RJ"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "True Tarcila",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        }
+      ]
+    },
+    "Specialty Saison": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Überbräu Cajá Saison",
+          "brewery": "Überbräu",
+          "state": "MG"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Paisagem Interior",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cervejaria Leopoldina - Leopoldina Saison Safra 2021",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Saison Lavanda",
+          "brewery": "Oripacha",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Saisson Do Porto",
+          "brewery": "Eh Brewing Co.",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Maniacs Saison Vieille",
+          "brewery": "Maniacs Brewing Co.",
+          "state": "PR"
+        }
+      ]
+    },
+    "Strong Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Barley Wine #2",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Strong Ale",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Para Abrir Quando Chegarmos Em Trappist-1",
+          "brewery": "Cervejaria Três Santas",
+          "state": "ES"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Barley Wine #2",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Strong Ale",
+          "brewery": "Cervejaria Bellbrück",
+          "state": "SC"
+        }
+      ]
+    },
+    "Swedish-Style Gotlandsdricke": {
+      "cbc2026": [
+        {
+          "medal": "Prata",
+          "beer": "Ragnarök",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Karsten Ragnarök",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Patanegra Gotlandsdricke",
+          "brewery": "Cervejaria Patanegra",
+          "state": "PR"
+        }
+      ]
+    },
+    "Sweet Stout or Cream Stout": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Cow Me Baby",
+          "brewery": "Cervejaria Salva",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Marshmallow Stout",
+          "brewery": "Cervejaria Artesanal Grecco",
+          "state": "ES"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Stout Frade Negro",
+          "brewery": "Cervejaria Karsten",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Galeza Galo Lanceiro Stout",
+          "brewery": "Cervejaria Paralelo 30",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Hunsruck Milk Stout",
+          "brewery": "Cervejaria Hunsruck",
+          "state": "RS"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Caracu",
+          "brewery": "Cervejaria Ambev",
+          "state": "RJ"
+        }
+      ]
+    },
+    "Traditional Belgian-Style Gueuze": {
+      "cbc2026": [
+        {
+          "medal": "Bronze",
+          "beer": "Gueuze Jack 2025",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Ying-Young",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Gueuze Jack 2025",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        }
+      ]
+    },
+    "Traditional German-Style Bock": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Bierbaum Bock",
+          "brewery": "Cervejaria Bierbaum",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "1824 Imigração Bock",
+          "brewery": "Cervejaria Imigração 1824",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Vemaguet 67 - Reboque",
+          "brewery": "Vemaguet 67",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Therezópolis Rubine",
+          "brewery": "Cerveja Therezópolis",
+          "state": "SP"
+        }
+      ]
+    },
+    "Vienna-Style Lager": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Dote De Uma Princesa",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Vienna Lager",
+          "brewery": "Magbeer",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Frida Anna",
+          "brewery": "Segredos Do Malte",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Browe! Vienna Lager",
+          "brewery": "Cervejaria Browe",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Alles Blau - Alles Blau Vienna Lager",
+          "brewery": "Cervejaria Alles Blau",
+          "state": "SC"
+        }
+      ]
+    },
+    "West Coast-Style India Pale Ale": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Ipa",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Punk Rópi Ipa Lado B",
+          "brewery": "Musaranho",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "São Bernardo West Coast",
+          "brewery": "Cervejaria São Bernardo",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Cervejaria Pio Décimo - Hades",
+          "brewery": "Cervejaria Pio Décimo",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Blauer Berg Ipa West Coast",
+          "brewery": "Blauer Berg Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Antonella",
+          "brewery": "Cervejaria Divino Malte",
+          "state": "PR"
+        }
+      ]
+    },
+    "West Coast-Style Pilsener": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "West Margarida Pilsener",
+          "brewery": "Big Jack Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Haka Galatico",
+          "brewery": "Caras De Malte",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Urwald Ipl",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Shorebreak Ipl",
+          "brewery": "Cervejaria Barra Sul",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "West Coast Feelings",
+          "brewery": "Nordus Cervejaria",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Urwald Hop Lager",
+          "brewery": "Cervejaria Urwald",
+          "state": "RS"
+        }
+      ]
+    },
+    "Wild Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Manipueira Syrah",
+          "brewery": "Cervejaria Sp 330",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Labicpueira",
+          "brewery": "Cervejaria Sp 330",
+          "state": "SP"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Saison Niagara",
+          "brewery": "Água Do Monge Cervejaria",
+          "state": "PR"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Manioko Cajú",
+          "brewery": "Cervejaria Prisma",
+          "state": "SP"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Saison Niagara",
+          "brewery": "Água Do Monge Cervejaria",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Acácia Selvagem",
+          "brewery": "Hespanha Brewery",
+          "state": "PR"
+        }
+      ]
+    },
+    "Wood & Barrel Aged Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Russian Imperial Stout",
+          "brewery": "Fegigubier",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Robust Porter Amburana E Putumuju",
+          "brewery": "Faroeste Beer",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Andromêda",
+          "brewery": "Caras De Malte",
+          "state": "SP"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Ouro",
+          "beer": "Barley Wine Dueto",
+          "brewery": "Cervejaria Maestro",
+          "state": "SC"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Cervejaria Turatti - Eclipse Frances",
+          "brewery": "Cervejaria Turatti",
+          "state": "CE"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Cherokee - Yona Barley Wine",
+          "brewery": "Cervejaria Cherokee",
+          "state": "SC"
+        }
+      ]
+    },
+    "Wood- and Barrel-Aged Sour Beer": {
+      "cbc2026": [
+        {
+          "medal": "Ouro",
+          "beer": "Leopoldina - Leopoldina Rouge Safra 2022",
+          "brewery": "Cervejaria Leopoldina",
+          "state": "RS"
+        },
+        {
+          "medal": "Prata",
+          "beer": "Sour Frutas Vermelhas",
+          "brewery": "277 Craft Beer",
+          "state": "PR"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Magia Wood",
+          "brewery": "Dakza Brewing",
+          "state": "MG"
+        }
+      ],
+      "cbc": [
+        {
+          "medal": "Prata",
+          "beer": "Space Nebula",
+          "brewery": "Cervejaria Stannis",
+          "state": "SC"
+        },
+        {
+          "medal": "Bronze",
+          "beer": "Jybá Sour De Goiaba, Goiabada, Marmelo E Marmelada",
+          "brewery": "Cervejaria Jybá",
+          "state": "MG"
+        }
+      ]
+    }
+  }
+}
