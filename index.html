@@ -10,16 +10,16 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
 :root{
-  --bg:         #0b0804;
-  --surface:    #130f07;
-  --card:       #1c1509;
-  --card-hover: #241b0c;
-  --border:     #2e2210;
-  --amber:      #e8a020;
-  --amber-dim:  #a06a0e;
-  --cream:      #f0e6ce;
-  --muted:      #7a6540;
-  --faint:      #3a2d18;
+  --bg:         #0d0d0d;
+  --surface:    #141414;
+  --card:       #1c1c1c;
+  --card-hover: #232323;
+  --border:     #2d2d2d;
+  --amber:      #f5c230;
+  --amber-dim:  #c49a20;
+  --cream:      #f0f0f0;
+  --muted:      #787878;
+  --faint:      #2a2a2a;
   --gold:       #ffd700;
   --gold2:      #c9960c;
   --silver:     #c8c8c8;
@@ -54,14 +54,18 @@ header{
   z-index:200;
 }
 .header-brand{
-  display:flex;align-items:baseline;gap:6px;
+  display:flex;align-items:center;gap:12px;
   flex-shrink:0;
 }
-.header-logo{
-  font-family:'Playfair Display',serif;
-  font-size:18px;font-weight:700;
-  color:var(--amber);
-  letter-spacing:0.01em;
+.header-logo-img{
+  height:30px;
+  width:auto;
+  display:block;
+}
+.header-divider{
+  width:1px;height:20px;
+  background:var(--border);
+  flex-shrink:0;
 }
 .header-subtitle{
   font-family:'DM Sans',sans-serif;
@@ -710,7 +714,7 @@ header{
   .overlay-panel{width:100vw;border-left:none}
 }
 @media(max-width:480px){
-  .header-logo{font-size:15px}
+  .header-logo-img{height:24px}
   .year-btn{font-size:10px;padding:2px 7px}
   .ms-name{font-size:16px}
   .filter-bar{gap:4px}
@@ -722,7 +726,8 @@ header{
 
 <header>
   <div class="header-brand">
-    <span class="header-logo">Pint.Network</span>
+    <img src="https://pint.network/assets/pint.network-BqzakIyD.png" alt="Pint.Network" class="header-logo-img">
+    <div class="header-divider"></div>
     <span class="header-subtitle">Análise de Concursos Comerciais</span>
   </div>
   <div class="year-filter">
