@@ -1,4 +1,7 @@
 *.py
+!build_dashboard.py
+!build_ranking.py
+!build_results.py
 *.pdf
 __pycache__/
 .DS_Store
