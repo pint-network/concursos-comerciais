@@ -16,7 +16,7 @@ def sort_entries(entries):
 def build_brewery_data(year):
     """Collect brewery entries from all three contests, then split into multi/only buckets."""
     contests = {}
-    for contest in ('cbc', 'blumenau', 'bbc'):
+    for contest in ('cbc', 'blumenau', 'bbc', 'abracerva'):
         breweries = {}
         for style, cd in DATA['data'].items():
             for e in cd.get(contest, {}).get(year, []):
@@ -29,34 +29,39 @@ def build_brewery_data(year):
                 })
         contests[contest] = breweries
 
-    cbc, blu, bbc = contests['cbc'], contests['blumenau'], contests['bbc']
-    all_keys = set(cbc) | set(blu) | set(bbc)
+    cbc, blu, bbc, abr = contests['cbc'], contests['blumenau'], contests['bbc'], contests['abracerva']
+    all_keys = set(cbc) | set(blu) | set(bbc) | set(abr)
 
     # Only contests that actually have data this year
-    active = [c for c in ('cbc', 'blumenau', 'bbc') if contests[c]]
+    active = [c for c in ('cbc', 'blumenau', 'bbc', 'abracerva') if contests[c]]
 
-    multi, only_cbc, only_blu, only_bbc = [], [], [], []
+    multi, only_cbc, only_blu, only_bbc, only_abr = [], [], [], [], []
 
     for k in all_keys:
         in_cbc = k in cbc
         in_blu = k in blu
         in_bbc = k in bbc
-        display = (cbc.get(k) or blu.get(k) or bbc.get(k))['display']
+        in_abr = k in abr
+        display = (cbc.get(k) or blu.get(k) or bbc.get(k) or abr.get(k))['display']
+        in_count = sum([in_cbc, in_blu, in_bbc, in_abr])
 
-        # "múltiplos" = present in every active contest this year
-        if all(k in contests[c] for c in active):
+        # "múltiplos" = present in 2+ contests this year
+        if in_count >= 2:
             multi.append({
-                'name':     display,
-                'cbc':      sort_entries(cbc[k]['entries']) if in_cbc else [],
-                'blumenau': sort_entries(blu[k]['entries']) if in_blu else [],
-                'bbc':      sort_entries(bbc[k]['entries']) if in_bbc else [],
+                'name':      display,
+                'cbc':       sort_entries(cbc[k]['entries']) if in_cbc else [],
+                'blumenau':  sort_entries(blu[k]['entries']) if in_blu else [],
+                'bbc':       sort_entries(bbc[k]['entries']) if in_bbc else [],
+                'abracerva': sort_entries(abr[k]['entries']) if in_abr else [],
             })
-        elif in_cbc and not in_blu and not in_bbc:
+        elif in_cbc:
             only_cbc.append({'name': display, 'entries': sort_entries(cbc[k]['entries'])})
-        elif in_blu and not in_cbc and not in_bbc:
+        elif in_blu:
             only_blu.append({'name': display, 'entries': sort_entries(blu[k]['entries'])})
-        elif in_bbc and not in_cbc and not in_blu:
+        elif in_bbc:
             only_bbc.append({'name': display, 'entries': sort_entries(bbc[k]['entries'])})
+        elif in_abr:
+            only_abr.append({'name': display, 'entries': sort_entries(abr[k]['entries'])})
 
     key_fn = lambda x: x['name'].lower()
     return {
@@ -64,6 +69,7 @@ def build_brewery_data(year):
         'onlyCbc': sorted(only_cbc, key=key_fn),
         'onlyBlu': sorted(only_blu, key=key_fn),
         'onlyBbc': sorted(only_bbc, key=key_fn),
+        'onlyAbr': sorted(only_abr, key=key_fn),
     }
 
 # Pre-compute brewery data, stats, and active-contest list per year
@@ -78,10 +84,11 @@ for year in DATA['years']:
         'stylesCbc': sum(1 for s in DATA['styles'] if DATA['data'][s].get('cbc', {}).get(year)),
         'stylesBlu': sum(1 for s in DATA['styles'] if DATA['data'][s].get('blumenau', {}).get(year)),
         'stylesBbc': sum(1 for s in DATA['styles'] if DATA['data'][s].get('bbc', {}).get(year)),
+        'stylesAbr': sum(1 for s in DATA['styles'] if DATA['data'][s].get('abracerva', {}).get(year)),
         'multi':     len(bd['multi']),
     }
     CONTESTS_BY_YEAR[year] = [
-        c for c in ('cbc', 'blumenau', 'bbc')
+        c for c in ('cbc', 'blumenau', 'bbc', 'abracerva')
         if any(DATA['data'][s].get(c, {}).get(year) for s in DATA['styles'])
     ]
 
@@ -226,6 +233,7 @@ header{
 .stat-pill.cbc-a b{color:var(--amber)}
 .stat-pill.cbc-b b{color:var(--blue)}
 .stat-pill.cbc-c b{color:var(--green)}
+.stat-pill.cbc-d b{color:#b464dc}
 
 /* ─── LAYOUT ─────────────────────────────────────────────── */
 .app{
@@ -335,6 +343,7 @@ header{
 .dot.a{background:var(--amber-dim)}
 .dot.b{background:#4a7fa0}
 .dot.c{background:var(--green-dim)}
+.dot.d{background:#8a40b0}
 
 /* ─── MAIN ─────────────────────────────────────────────── */
 .main{
@@ -457,6 +466,7 @@ header{
 .comp-a .comp-name{color:var(--amber)}
 .comp-b .comp-name{color:var(--blue)}
 .comp-c .comp-name{color:var(--green)}
+.comp-d .comp-name{color:#b464dc}
 .comp-no-data{
   padding:24px 15px;
   text-align:center;
@@ -635,6 +645,7 @@ header{
 .ov-section-title.only-a{color:var(--amber)}
 .ov-section-title.only-b{color:var(--blue)}
 .ov-section-title.only-c{color:var(--green)}
+.ov-section-title.only-d{color:#b464dc}
 
 /* Brewery accordion in overlay */
 .bw-item{
@@ -664,6 +675,7 @@ header{
 .bw-count-a{color:var(--amber-dim)}
 .bw-count-b{color:#4a7fa0}
 .bw-count-c{color:var(--green-dim)}
+.bw-count-d{color:#8a40b0}
 .bw-count-single{color:var(--muted)}
 .bw-chevron{
   color:var(--muted);font-size:10px;
@@ -692,6 +704,7 @@ header{
 .bw-comp-label.la{color:var(--amber-dim)}
 .bw-comp-label.lb{color:#4a7fa0}
 .bw-comp-label.lc{color:var(--green-dim)}
+.bw-comp-label.ld{color:#8a40b0}
 .bw-comp-label.lsingle{color:var(--muted)}
 
 .bw-entry{
@@ -779,6 +792,7 @@ header{
 .bw-modal-contest-name.ca{color:var(--amber)}
 .bw-modal-contest-name.cb{color:var(--blue)}
 .bw-modal-contest-name.cc{color:var(--green)}
+.bw-modal-contest-name.cd{color:#b464dc}
 .bw-modal-row{
   display:flex;align-items:center;
   padding:7px 0;
@@ -846,6 +860,7 @@ header{
     <div class="stat-pill cbc-a" id="stat-cbc"></div>
     <div class="stat-pill cbc-b" id="stat-blu"></div>
     <div class="stat-pill cbc-c" id="stat-bbc"></div>
+    <div class="stat-pill cbc-d" id="stat-abr"></div>
     <div class="stat-pill match" id="btn-breweries" title="Ver cervejarias em múltiplos concursos"></div>
   </div>
 </header>
@@ -861,6 +876,7 @@ header{
       <button class="filter-btn" data-filter="cbc">CBC</button>
       <button class="filter-btn" data-filter="blumenau">Blumenau</button>
       <button class="filter-btn" data-filter="bbc">BBC</button>
+      <button class="filter-btn" data-filter="abracerva">CCB</button>
       <button class="filter-btn" data-filter="match">◆ Match</button>
     </div>
     <div class="style-count" id="style-count"></div>
@@ -903,14 +919,15 @@ const CONTESTS_BY_YEAR = ''' + CBJ + ''';
 const COMP_A = RESULTS_DATA.contests.cbc;
 const COMP_B = RESULTS_DATA.contests.blumenau;
 const COMP_C = RESULTS_DATA.contests.bbc;
+const COMP_D = RESULTS_DATA.contests.abracerva;
 
-const CONTEST_LABELS = {cbc: COMP_A, blumenau: COMP_B, bbc: COMP_C};
-const CONTEST_CARD   = {cbc: 'comp-a', blumenau: 'comp-b', bbc: 'comp-c'};
-const CONTEST_DOT    = {cbc: 'a', blumenau: 'b', bbc: 'c'};
-const CONTEST_ABBR   = {cbc: 'CBC', blumenau: 'BLU', bbc: 'BBC'};
-const CONTEST_LABEL_CLS = {cbc: 'la', blumenau: 'lb', bbc: 'lc'};
-const CONTEST_MODAL_CLS = {cbc: 'ca', blumenau: 'cb', bbc: 'cc'};
-const CONTEST_COUNT_CLS = {cbc: 'bw-count-a', blumenau: 'bw-count-b', bbc: 'bw-count-c'};
+const CONTEST_LABELS = {cbc: COMP_A, blumenau: COMP_B, bbc: COMP_C, abracerva: COMP_D};
+const CONTEST_CARD   = {cbc: 'comp-a', blumenau: 'comp-b', bbc: 'comp-c', abracerva: 'comp-d'};
+const CONTEST_DOT    = {cbc: 'a', blumenau: 'b', bbc: 'c', abracerva: 'd'};
+const CONTEST_ABBR   = {cbc: 'CBC', blumenau: 'BLU', bbc: 'BBC', abracerva: 'CCB'};
+const CONTEST_LABEL_CLS = {cbc: 'la', blumenau: 'lb', bbc: 'lc', abracerva: 'ld'};
+const CONTEST_MODAL_CLS = {cbc: 'ca', blumenau: 'cb', bbc: 'cc', abracerva: 'cd'};
+const CONTEST_COUNT_CLS = {cbc: 'bw-count-a', blumenau: 'bw-count-b', bbc: 'bw-count-c', abracerva: 'bw-count-d'};
 
 const MEDAL_PT = {Ouro:'OURO', Prata:'PRATA', Bronze:'BRONZE'};
 const MEDAL_ORDER = {Ouro:0, Prata:1, Bronze:2};
@@ -920,10 +937,10 @@ let currentFilter = 'all';
 let currentYear   = RESULTS_DATA.years[RESULTS_DATA.years.length - 1];
 
 function getActiveContests() {
-  return CONTESTS_BY_YEAR[currentYear] || ['cbc', 'blumenau'];
+  return CONTESTS_BY_YEAR[currentYear] || ['cbc', 'blumenau', 'abracerva'];
 }
 
-function getBD() { return BREWERY_DATA_ALL[currentYear] || {multi:[],onlyCbc:[],onlyBlu:[],onlyBbc:[]}; }
+function getBD() { return BREWERY_DATA_ALL[currentYear] || {multi:[],onlyCbc:[],onlyBlu:[],onlyBbc:[],onlyAbr:[]}; }
 
 function updateStats() {
   const s      = STATS_ALL[currentYear] || {};
@@ -935,6 +952,10 @@ function updateStats() {
   const bbcPill = document.getElementById('stat-bbc');
   bbcPill.innerHTML = '<b>' + (s.stylesBbc||0) + '</b>&nbsp;estilos · BBC';
   bbcPill.style.display = active.includes('bbc') ? '' : 'none';
+
+  const abrPill = document.getElementById('stat-abr');
+  abrPill.innerHTML = '<b>' + (s.stylesAbr||0) + '</b>&nbsp;estilos · CCB';
+  abrPill.style.display = active.includes('abracerva') ? '' : 'none';
 
   document.getElementById('btn-breweries').innerHTML =
     '◆&nbsp;<b>' + (s.multi||0) + '</b>&nbsp;cervejarias em múltiplos';
@@ -995,10 +1016,11 @@ function renderSidebar(query, filter) {
     if (!hasAny) return false;
     if (q && !s.toLowerCase().includes(q)) return false;
     if (filter === 'multi')    { return active.filter(c => getEntries(d,c).length>0).length >= 2; }
-    if (filter === 'cbc')      return getEntries(d,'cbc').length > 0;
-    if (filter === 'blumenau') return getEntries(d,'blumenau').length > 0;
-    if (filter === 'bbc')      return getEntries(d,'bbc').length > 0;
-    if (filter === 'match')    return matchStyles.has(s);
+    if (filter === 'cbc')       return getEntries(d,'cbc').length > 0;
+    if (filter === 'blumenau')  return getEntries(d,'blumenau').length > 0;
+    if (filter === 'bbc')       return getEntries(d,'bbc').length > 0;
+    if (filter === 'abracerva') return getEntries(d,'abracerva').length > 0;
+    if (filter === 'match')     return matchStyles.has(s);
     return true;
   });
 
@@ -1078,10 +1100,11 @@ function renderMainList(query, filter) {
     if (!hasAny) return false;
     if (q && !s.toLowerCase().includes(q)) return false;
     if (filter === 'multi')    { return active.filter(c => getEntries(d,c).length>0).length >= 2; }
-    if (filter === 'cbc')      return getEntries(d,'cbc').length > 0;
-    if (filter === 'blumenau') return getEntries(d,'blumenau').length > 0;
-    if (filter === 'bbc')      return getEntries(d,'bbc').length > 0;
-    if (filter === 'match')    return matchStyles.has(s);
+    if (filter === 'cbc')       return getEntries(d,'cbc').length > 0;
+    if (filter === 'blumenau')  return getEntries(d,'blumenau').length > 0;
+    if (filter === 'bbc')       return getEntries(d,'bbc').length > 0;
+    if (filter === 'abracerva') return getEntries(d,'abracerva').length > 0;
+    if (filter === 'match')     return matchStyles.has(s);
     return true;
   });
 
@@ -1184,9 +1207,10 @@ function renderBreweriesOverlay() {
   html += '</div>';
 
   const singleSections = [
-    {key:'onlyCbc', contest:'cbc',      title:'Somente CBC — Concurso Brasileiro', cls:'only-a'},
-    {key:'onlyBlu', contest:'blumenau', title:'Somente Concurso Brasileiro de Blumenau',  cls:'only-b'},
-    {key:'onlyBbc', contest:'bbc',      title:'Somente Brasil Beer Cup',           cls:'only-c'},
+    {key:'onlyCbc', contest:'cbc',       title:'Somente CBC — Concurso Brasileiro',           cls:'only-a'},
+    {key:'onlyBlu', contest:'blumenau',  title:'Somente Concurso Brasileiro de Blumenau',      cls:'only-b'},
+    {key:'onlyBbc', contest:'bbc',       title:'Somente Brasil Beer Cup',                     cls:'only-c'},
+    {key:'onlyAbr', contest:'abracerva', title:'Somente Copa Cerveja Brasil — Abracerva',     cls:'only-d'},
   ];
   for (const {key, contest, title, cls} of singleSections) {
     if (!active.includes(contest)) continue;
@@ -1271,7 +1295,7 @@ function rebuildBreweryLookup() {
       const entries = (contests[c]||{})[currentYear] || [];
       for (const e of entries) {
         const k = e.brewery.toLowerCase();
-        if (!BREWERY_LOOKUP[k]) BREWERY_LOOKUP[k] = {name: e.brewery, cbc:[], blumenau:[], bbc:[]};
+        if (!BREWERY_LOOKUP[k]) BREWERY_LOOKUP[k] = {name: e.brewery, cbc:[], blumenau:[], bbc:[], abracerva:[]};
         if (BREWERY_LOOKUP[k][c]) {
           BREWERY_LOOKUP[k][c].push({style, medal: e.medal, beer: e.beer, state: e.state||''});
         }
@@ -1280,7 +1304,7 @@ function rebuildBreweryLookup() {
   }
   // Sort entries within each contest by style then medal
   for (const info of Object.values(BREWERY_LOOKUP)) {
-    for (const c of ['cbc','blumenau','bbc']) {
+    for (const c of ['cbc','blumenau','bbc','abracerva']) {
       info[c].sort((a,b) => a.style.localeCompare(b.style) || (MEDAL_ORDER[a.medal]||9) - (MEDAL_ORDER[b.medal]||9));
     }
   }
@@ -1350,4 +1374,4 @@ for year in DATA['years']:
     s  = STATS_BY_YEAR[year]
     bd = BREWERY_DATA_BY_YEAR[year]
     active = CONTESTS_BY_YEAR[year]
-    print(f'  {year} [{", ".join(active)}]: CBC {s["stylesCbc"]} / Blumenau {s["stylesBlu"]} / BBC {s["stylesBbc"]} styles | {s["multi"]} breweries in multiple')
+    print(f'  {year} [{", ".join(active)}]: CBC {s["stylesCbc"]} / Blumenau {s["stylesBlu"]} / BBC {s["stylesBbc"]} / CCB {s["stylesAbr"]} styles | {s["multi"]} breweries in multiple')

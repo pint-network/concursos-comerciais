@@ -34,7 +34,7 @@ ALL_STATES = [
     'RO', 'RR', 'SC', 'SP', 'SE', 'TO',
 ]
 
-CONTEST_ORDER = ('cbc', 'blumenau', 'bbc')
+CONTEST_ORDER = ('cbc', 'blumenau', 'bbc', 'abracerva')
 
 
 def _strip(b):
@@ -392,9 +392,10 @@ header{position:fixed;top:0;left:0;right:0;height:var(--header-h);background:var
 .rank-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .state-tag{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;padding:2px 6px;border-radius:3px;background:var(--faint);color:var(--muted);letter-spacing:.05em}
 .contest-tag{font-family:'IBM Plex Mono',monospace;font-size:10px;padding:2px 6px;border-radius:3px;letter-spacing:.04em}
-.contest-tag.cbc     {background:rgba(245,194,48,.1);color:#c49a20}
-.contest-tag.blumenau{background:rgba(91,163,208,.1);color:#5ba3d0}
-.contest-tag.bbc     {background:rgba(76,175,120,.1);color:#4caf78}
+.contest-tag.cbc      {background:rgba(245,194,48,.1);color:#c49a20}
+.contest-tag.blumenau {background:rgba(91,163,208,.1);color:#5ba3d0}
+.contest-tag.bbc      {background:rgba(76,175,120,.1);color:#4caf78}
+.contest-tag.abracerva{background:rgba(180,100,220,.1);color:#b464dc}
 .style-count-tag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted)}
 .rank-medals{display:flex;align-items:center;gap:10px;flex-shrink:0;margin:0 8px}
 .medal-col{display:flex;flex-direction:column;align-items:center;gap:2px}
@@ -780,17 +781,17 @@ function medalBarHtml(b,maxPts){
   return s?`<div class="medal-bar">${s}</div>`:'';
 }
 function contestTagsHtml(contests){
-  const map={cbc:'CBC',blumenau:'BLU',bbc:'BBC'};
+  const map={cbc:'CBC',blumenau:'BLU',bbc:'BBC',abracerva:'CCB'};
   return (contests||[]).map(c=>`<span class="contest-tag ${c}">${map[c]||c}</span>`).join('');
 }
 function rankCardHtml(b,rank,maxPts,extraMeta=''){
   const topCls=rank===1?' top1':rank===2?' top2':rank===3?' top3':'';
   const detailId='detail-'+Math.random().toString(36).slice(2);
   const me=b.medal_entries||{};
-  const CONTEST_NAMES={cbc:'CBC',blumenau:'Blumenau',bbc:'Brasil Beer Cup'};
+  const CONTEST_NAMES={cbc:'CBC',blumenau:'Blumenau',bbc:'Brasil Beer Cup',abracerva:'Copa Cerveja Brasil'};
   const MEDAL_ORDER=['Ouro','Prata','Bronze'];
   let detailHtml='';
-  for(const c of ['cbc','blumenau','bbc']){
+  for(const c of ['cbc','blumenau','bbc','abracerva']){
     if(!me[c]) continue;
     for(const y of Object.keys(me[c]).sort()){
       const entries=me[c][y];
@@ -824,7 +825,7 @@ function toggleDetail(id){
 // ── 1. Top 10 Overall ────────────────────────────────────────
 function renderTop10Overall(){
   const rk=getRank(), list=rk.top10_overall||[], maxPts=list.length?list[0].points:1;
-  const cNames={cbc:'CBC',blumenau:'Blumenau',bbc:'BBC'};
+  const cNames={cbc:'CBC',blumenau:'Blumenau',bbc:'BBC',abracerva:'Copa Cerveja Brasil'};
   const activeStr=currentYear==='all'
     ? YEARS.join(' + ')+' — todos os anos'
     : (rk.active_contests||[]).map(c=>cNames[c]||c).join(' + ');
