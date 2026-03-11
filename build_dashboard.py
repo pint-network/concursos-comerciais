@@ -840,8 +840,7 @@ header{
     <a href="ranking.html" class="nav-link">Ranking</a>
   </nav>
   <div class="year-filter">
-    <button class="year-btn" data-year="2025">2025</button>
-    <button class="year-btn active" data-year="2026">2026</button>
+    ''' + ''.join(f'<button class="year-btn{" active" if y == DATA["years"][-1] else ""}" data-year="{y}">{y}</button>' for y in DATA['years']) + '''
   </div>
   <div class="header-stats">
     <div class="stat-pill cbc-a" id="stat-cbc"></div>
