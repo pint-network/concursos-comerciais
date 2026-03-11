@@ -69,6 +69,7 @@ def compute_ranking_data(years):
                     b[medal_lc]  += 1
                     b['contests'].add(contest)
                     b['styles'].add(style)
+                    b.setdefault('entries', []).append({'beer': e.get('beer',''), 'style': style, 'contest': contest, 'year': year, 'medal': e['medal']})
 
                     # ── Style medal tally ─────────────────────────
                     sc = style_medal_cnt[style]
@@ -104,6 +105,20 @@ def compute_ranking_data(years):
     all_breweries.sort(key=lambda x: (-x['points'], -x['ouro'], -x['prata'], x['display'].lower()))
     for i, b in enumerate(all_breweries):
         b['rank'] = i + 1
+
+    def _group_entries(entries):
+        result = {}
+        for en in entries:
+            c = en['contest']; y = en['year']
+            if c not in result: result[c] = {}
+            if y not in result[c]: result[c][y] = []
+            result[c][y].append({'beer': en['beer'], 'style': en['style'], 'medal': en['medal']})
+        return result
+
+    for b in all_breweries:
+        b['medal_entries'] = _group_entries(b.get('entries', []))
+        if 'entries' in b:
+            del b['entries']
 
     # ── Top 10 overall ────────────────────────────────────────────
     top10_overall = [_strip(b) for b in all_breweries[:10]]
@@ -529,6 +544,7 @@ header{position:fixed;top:0;left:0;right:0;height:var(--header-h);background:var
 .state-table tr:last-child td{border-bottom:none}
 .state-table tr:hover td{background:var(--card-hover)}
 .state-table tr.st-empty td{color:var(--faint);font-style:italic}
+.state-table tr:not(.st-empty){cursor:pointer}
 .td-rank{color:var(--muted);font-size:12px;width:36px}
 .td-state{color:var(--cream);font-weight:500;font-size:13px;letter-spacing:.06em}
 .td-pts{color:var(--amber);font-weight:500;font-size:15px;text-align:right}
@@ -539,6 +555,22 @@ header{position:fixed;top:0;left:0;right:0;height:var(--header-h);background:var
 .td-silver{color:var(--silver)!important}
 .td-bronze-col{color:var(--bronze)!important}
 .state-row-bar{display:flex;height:3px;border-radius:2px;overflow:hidden;gap:1px;margin-top:4px}
+
+/* ─── RANK DETAIL ─────────────────────────────────────────── */
+.rank-card{cursor:pointer}
+.rank-detail{background:var(--faint);border:1px solid var(--border);border-top:none;border-radius:0 0 8px 8px;padding:14px 16px;margin-top:-6px;margin-bottom:6px}
+.detail-group{margin-bottom:12px}
+.detail-group:last-child{margin-bottom:0}
+.detail-group-title{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.detail-year-tag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.04em}
+.detail-entries{display:flex;flex-direction:column;gap:4px}
+.detail-entry{display:flex;align-items:center;gap:8px;padding:4px 0}
+.detail-medal-icon{width:16px;height:16px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;font-family:'IBM Plex Mono',monospace;flex-shrink:0}
+.detail-medal-icon.ouro  {background:radial-gradient(circle at 35% 35%,#ffe55a,#c89000);color:#3d2800}
+.detail-medal-icon.prata {background:radial-gradient(circle at 35% 35%,#e8e8e8,#888);color:#2a2a2a}
+.detail-medal-icon.bronze{background:radial-gradient(circle at 35% 35%,#e8a050,#804010);color:#2a1000}
+.detail-beer{font-size:12px;color:var(--cream);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.detail-style-tag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);flex-shrink:0;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 /* ─── EMPTY STATE ─────────────────────────────────────────── */
 .empty-state{padding:40px;text-align:center;color:var(--muted);font-size:13px;font-style:italic}
@@ -577,8 +609,8 @@ header{position:fixed;top:0;left:0;right:0;height:var(--header-h);background:var
     <span class="header-subtitle">Análise de Concursos Comerciais</span>
   </div>
   <nav class="header-nav">
-    <a href="index.html" class="nav-link">Dashboard</a>
     <a href="ranking.html" class="nav-link active">Ranking</a>
+    <a href="index.html" class="nav-link">Medalhas</a>
   </nav>
   <div class="year-filter">
     <button class="year-btn" data-year="all">Todos</button>
@@ -606,15 +638,6 @@ header{position:fixed;top:0;left:0;right:0;height:var(--header-h);background:var
     </div>
     <div class="concentration-stats" id="concentration-stats"></div>
     <div class="rank-list" id="top10-list"></div>
-  </section>
-
-  <!-- 2. Especialistas em Ouro -->
-  <section class="ranking-section">
-    <div class="section-header">
-      <h2 class="section-title">Especialistas em Ouro</h2>
-      <span class="section-desc">maior proporção de medalhas de ouro · mín. 3 medalhas</span>
-    </div>
-    <div class="rank-list" id="gold-specialists-list"></div>
   </section>
 
   <!-- 3. Consistência entre Anos (all-year only) -->
@@ -712,24 +735,6 @@ header{position:fixed;top:0;left:0;right:0;height:var(--header-h);background:var
     </table>
   </section>
 
-  <!-- 10. Estilos Mais Disputados -->
-  <section class="ranking-section">
-    <div class="section-header">
-      <h2 class="section-title">Estilos Mais Disputados</h2>
-      <span class="section-desc">categorias com mais cervejarias vencedoras distintas · top 25</span>
-    </div>
-    <table class="data-table">
-      <thead>
-        <tr>
-          <th>#</th><th>Estilo</th>
-          <th class="num">Cervejarias</th><th>Disputa</th>
-          <th class="num">Total medalhas</th>
-        </tr>
-      </thead>
-      <tbody id="styles-contested-body"></tbody>
-    </table>
-  </section>
-
   <!-- 11. Estilos Menos Premiados -->
   <section class="ranking-section">
     <div class="section-header">
@@ -780,7 +785,21 @@ function contestTagsHtml(contests){
 }
 function rankCardHtml(b,rank,maxPts,extraMeta=''){
   const topCls=rank===1?' top1':rank===2?' top2':rank===3?' top3':'';
-  return `<div class="rank-card${topCls}">
+  const detailId='detail-'+Math.random().toString(36).slice(2);
+  const me=b.medal_entries||{};
+  const CONTEST_NAMES={cbc:'CBC',blumenau:'Blumenau',bbc:'Brasil Beer Cup'};
+  const MEDAL_ORDER=['Ouro','Prata','Bronze'];
+  let detailHtml='';
+  for(const c of ['cbc','blumenau','bbc']){
+    if(!me[c]) continue;
+    for(const y of Object.keys(me[c]).sort()){
+      const entries=me[c][y];
+      if(!entries||!entries.length) continue;
+      const sorted=[...entries].sort((a,b)=>MEDAL_ORDER.indexOf(a.medal)-MEDAL_ORDER.indexOf(b.medal));
+      detailHtml+=`<div class="detail-group"><div class="detail-group-title"><span class="contest-tag ${c}">${CONTEST_NAMES[c]||c}</span><span class="detail-year-tag">${y}</span></div><div class="detail-entries">${sorted.map(en=>`<div class="detail-entry ${en.medal.toLowerCase()}"><div class="detail-medal-icon ${en.medal.toLowerCase()}">${en.medal[0]}</div><span class="detail-beer">${esc(en.beer)}</span><span class="detail-style-tag">${esc(en.style)}</span></div>`).join('')}</div></div>`;
+    }
+  }
+  return `<div class="rank-card${topCls}" onclick="toggleDetail('${detailId}')">
     ${rankNumHtml(rank)}
     <div class="rank-info">
       <div class="rank-name" title="${esc(b.display)}">${esc(b.display)}</div>
@@ -794,7 +813,12 @@ function rankCardHtml(b,rank,maxPts,extraMeta=''){
     </div>
     <div class="rank-medals">${medalColsHtml(b)}</div>
     <div class="rank-points"><div class="points-val">${b.points}</div><div class="points-label">pontos</div></div>
-  </div>`;
+  </div>
+  <div class="rank-detail" id="${detailId}" style="display:none">${detailHtml||'<div class="empty-state">Sem detalhes disponíveis.</div>'}</div>`;
+}
+function toggleDetail(id){
+  const el=document.getElementById(id);
+  if(el) el.style.display=el.style.display==='none'?'block':'none';
 }
 
 // ── 1. Top 10 Overall ────────────────────────────────────────
@@ -821,33 +845,6 @@ function renderTop10Overall(){
     :'<div class="empty-state">Sem dados.</div>';
 }
 
-// ── 2. Gold specialists ──────────────────────────────────────
-function renderGoldSpecialists(){
-  const rk=getRank(), list=rk.gold_specialists||[];
-  const container=document.getElementById('gold-specialists-list');
-  if(!list.length){container.innerHTML='<div class="empty-state">Sem dados suficientes.</div>';return;}
-  container.innerHTML=list.map((b,i)=>{
-    const topCls=i===0?' top1':i===1?' top2':i===2?' top3':'';
-    const pct=b.gold_ratio||0;
-    return `<div class="rank-card${topCls}">
-      ${rankNumHtml(i+1)}
-      <div class="rank-info">
-        <div class="rank-name" title="${esc(b.display)}">${esc(b.display)}</div>
-        <div class="rank-meta">
-          <span class="state-tag">${esc(b.state||'?')}</span>
-          ${contestTagsHtml(b.contests)}
-          <span class="n-medals-tag">${b.n_medals} medalha${b.n_medals!==1?'s':''}</span>
-        </div>
-        <div class="gold-ratio-wrap">
-          <div class="gold-ratio-bar"><div class="gold-ratio-fill" style="width:${pct}%"></div></div>
-          <span class="gold-ratio-pct">${pct}% ouro</span>
-        </div>
-      </div>
-      <div class="rank-medals">${medalColsHtml(b)}</div>
-      <div class="rank-points"><div class="points-val">${b.points}</div><div class="points-label">pontos</div></div>
-    </div>`;
-  }).join('');
-}
 
 // ── 3. Consistency ───────────────────────────────────────────
 function renderConsistency(){
@@ -953,7 +950,7 @@ function renderStateRanking(){
       ${pr?`<div class="medal-bar-seg prata" style="flex:${pr}"></div>`:''}
       ${br?`<div class="medal-bar-seg bronze" style="flex:${br}"></div>`:''}
     </div>`:'';
-    return `<tr${empty?' class="st-empty"':''}>
+    return `<tr${empty?' class="st-empty"':` onclick="selectState('${s.state}')" style="cursor:pointer"`}>
       <td class="td-rank">${empty?'—':rank}</td>
       <td class="td-state">${esc(s.state)}</td>
       <td class="td-brew" style="text-align:right">${empty?'—':s.breweries}</td>
@@ -963,6 +960,13 @@ function renderStateRanking(){
       <td class="td-pts">${empty?'—':s.points+bar}</td>
     </tr>`;
   }).join('');
+}
+
+function selectState(st){
+  currentState=st;
+  renderStatePills();
+  renderTop10State();
+  document.getElementById('state-section-count').closest('section').scrollIntoView({behavior:'smooth'});
 }
 
 // ── 8. State dominant style ──────────────────────────────────
@@ -998,24 +1002,6 @@ function renderStyleDominance(){
         <td class="td-pts">${s.points}</td>
       </tr>`).join('')
     :'<tr><td colspan="8" class="empty-state">Sem dados.</td></tr>';
-}
-
-// ── 10. Most contested styles ────────────────────────────────
-function renderStylesContested(){
-  const list=getRank().styles_most_contested||[];
-  const maxUniq=list.length?list[0].unique_breweries:1;
-  document.getElementById('styles-contested-body').innerHTML=list.length
-    ?list.map((s,i)=>{
-        const w=Math.round(s.unique_breweries/maxUniq*100);
-        return `<tr>
-          <td class="td-rank">${i+1}</td>
-          <td class="td-style">${esc(s.style)}</td>
-          <td class="td-unique">${s.unique_breweries}</td>
-          <td><div class="contested-bar-wrap"><div class="contested-bar"><div class="contested-bar-fill" style="width:${w}%"></div></div></div></td>
-          <td class="td-total">${s.total_medals}</td>
-        </tr>`;
-      }).join('')
-    :'<tr><td colspan="5" class="empty-state">Sem dados.</td></tr>';
 }
 
 // ── 11. Styles least medals ──────────────────────────────────
@@ -1059,7 +1045,6 @@ document.querySelectorAll('.year-btn').forEach(btn=>{
 function renderAll(){
   setAllOnlyVisibility();
   renderTop10Overall();
-  renderGoldSpecialists();
   if(currentYear==='all'){renderConsistency();renderEvolution();}
   renderDiversity();
   renderStatePills();
@@ -1067,7 +1052,6 @@ function renderAll(){
   renderStateRanking();
   renderStateDominantStyle();
   renderStyleDominance();
-  renderStylesContested();
   renderStylesLeast();
 }
 

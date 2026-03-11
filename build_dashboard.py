@@ -836,8 +836,8 @@ header{
     <span class="header-subtitle">Análise de Concursos Comerciais</span>
   </div>
   <nav class="header-nav">
-    <a href="index.html" class="nav-link active">Dashboard</a>
     <a href="ranking.html" class="nav-link">Ranking</a>
+    <a href="index.html" class="nav-link active">Medalhas</a>
   </nav>
   <div class="year-filter">
     ''' + ''.join(f'<button class="year-btn{" active" if y == DATA["years"][-1] else ""}" data-year="{y}">{y}</button>' for y in DATA['years']) + '''
