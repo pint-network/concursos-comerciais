@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build ranking.html from results.json.
+"""Build index.html from results.json.
 
 Scoring: Ouro = 3 pts, Prata = 2 pts, Bronze = 1 pt
 
@@ -609,8 +609,8 @@ header{position:fixed;top:0;left:0;right:0;height:var(--header-h);background:var
     <span class="header-subtitle">Análise de Concursos Comerciais</span>
   </div>
   <nav class="header-nav">
-    <a href="ranking.html" class="nav-link active">Ranking</a>
-    <a href="index.html" class="nav-link">Medalhas</a>
+    <a href="index.html" class="nav-link active">Ranking</a>
+    <a href="medals.html" class="nav-link">Medalhas</a>
   </nav>
   <div class="year-filter">
     <button class="year-btn" data-year="all">Todos</button>
@@ -1061,7 +1061,7 @@ renderAll();
 </html>
 '''
 
-out = BASE / 'ranking.html'
+out = BASE / 'index.html'
 with open(out, 'w', encoding='utf-8') as f:
     f.write(HTML)
 
@@ -1085,4 +1085,4 @@ if ev['gains']:
     print(f'Maior ganho: {ev["gains"][0]["display"]} +{ev["gains"][0]["delta"]} pts ({ev["prev_year"]}→{ev["curr_year"]})')
 if ev['losses']:
     print(f'Maior queda: {ev["losses"][0]["display"]} {ev["losses"][0]["delta"]} pts ({ev["prev_year"]}→{ev["curr_year"]})')
-print(f'\nranking.html written ({out.stat().st_size // 1024}KB)')
+print(f'\nindex.html written ({out.stat().st_size // 1024}KB)')

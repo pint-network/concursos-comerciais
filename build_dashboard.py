@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerates index.html from results.json — supports CBC, Blumenau and BBC."""
+"""Regenerates medals.html from results.json — supports CBC, Blumenau and BBC."""
 import json
 
 BASE = '/Users/hboavent/Projects/personal/concursos-resultados/'
@@ -836,8 +836,8 @@ header{
     <span class="header-subtitle">Análise de Concursos Comerciais</span>
   </div>
   <nav class="header-nav">
-    <a href="ranking.html" class="nav-link">Ranking</a>
-    <a href="index.html" class="nav-link active">Medalhas</a>
+    <a href="index.html" class="nav-link">Ranking</a>
+    <a href="medals.html" class="nav-link active">Medalhas</a>
   </nav>
   <div class="year-filter">
     ''' + ''.join(f'<button class="year-btn{" active" if y == DATA["years"][-1] else ""}" data-year="{y}">{y}</button>' for y in DATA['years']) + '''
@@ -1342,10 +1342,10 @@ renderMainList('', 'all');
 </body>
 </html>'''
 
-with open(BASE + 'index.html', 'w', encoding='utf-8') as f:
+with open(BASE + 'medals.html', 'w', encoding='utf-8') as f:
     f.write(HTML)
 
-print(f'index.html written ({len(HTML)//1024}KB)')
+print(f'medals.html written ({len(HTML)//1024}KB)')
 for year in DATA['years']:
     s  = STATS_BY_YEAR[year]
     bd = BREWERY_DATA_BY_YEAR[year]
